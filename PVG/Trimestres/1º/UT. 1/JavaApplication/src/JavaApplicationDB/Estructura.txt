@@ -1,0 +1,4 @@
+src/
+ └─ javaapplication/
+    ├─ JavaApplicationBD.java  (main)
+    └─ ventanaEmergente.java   (JPanel con botones)

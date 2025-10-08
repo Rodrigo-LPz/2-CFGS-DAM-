@@ -1,0 +1,13 @@
+Título: Aplicación Java Swing con conexión a base de datos SQLite.
+
+Enunciado: Desarrollar una aplicación de escritorio en Java que permita al usuario crear y consultar una base de datos SQLite a través de una interfaz gráfica.
+
+Requisitos: Además de cumplir con lo dicho en el apartado de 'Enunciado', para el desarrollo/construcción del programa, como requisitos fundamentales encontramos que debe cumplir con lo siguiente:
+                ? La interfaz gráfica tiene que constar con un mínimo de 3 elementos:
+                    ? 2 Botones FUNCIONALES (Crear y Modificar).
+                    ? 1 Título (jLabel).
+                ? Crear una bienvenida previa al programa mediante el uso de "Scanner".
+                ? Mediante "JOptionPane", hacer uso de ventanas emergentes para los errores que pueden suceder  durante la conexión a la BD [Pista: se usarán durante los "catch".].
+                ? Comentar nuestro código  explicando que es lo que hace o está pasando.
+
+Observaciones: El hecho de usar 'SQLite' en vez de otros sistemas gestores de bases de datos como lo puede ser 'MySQL' o 'MariaDB' se debe en gran parte a la facilidad para crear este ejercicio, teniendo en cuenta que 'SQLite' es es una base de datos embebida (sistema de gestión de bases de datos que se integra directamente en la aplicación que la utiliza, en lugar de funcionar como un servidor independiente) y sin servidor, ligera y basada en archivos, ideal para aplicaciones móviles y desktop peque?as. Es decir, Ambas opciones son bases de datos, la diferencia es que 'MySQL' o 'MariaDB' requiere de un servidor para poder ser ejecutado (arquitectura cliente-servidor), mientras que 'SQLite' es una base de datos independiente, es ejecutable/funciona sin la presencia de un servidor. Su ventaja principal es que usando esta última, basta sólo con hacer uso de '.jar' y el fichero 'mariadb', no requiere de ninguna instalación.

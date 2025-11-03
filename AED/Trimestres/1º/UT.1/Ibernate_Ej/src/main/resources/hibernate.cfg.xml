@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+
+<hibernate-configuration>
+    <session-factory>
+        <!-- Configuración de la base de datos -->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/kode12</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">root</property>
+        
+        <!-- Dialecto de la base de datos (Dialecto SQL) -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        
+        <!-- Pool de conexiones -->
+        <property name="hibernate.connection.pool_size">10</property>
+        
+        <!-- Mostrar SQL en consola -->
+        <property name="hibernate.show_sql">true</property>       
+        <property name="hibernate.format_sql">true</property>
+        
+        <!-- Gestión automática del esquema -->
+        <property name="hibernate.hbm2ddl.auto">validate</property>
+        
+        <!-- Contexto de sesión actual -->
+        <property name="hibernate.current_session_context_class">thread</property>
+        
+        <!-- Mapeo de clases de entidad -->
+        <mapping resource="Department.hbm.xml"/>
+        <mapping resource="Employee.hbm.xml"/>
+    </session-factory>
+</hibernate-configuration>

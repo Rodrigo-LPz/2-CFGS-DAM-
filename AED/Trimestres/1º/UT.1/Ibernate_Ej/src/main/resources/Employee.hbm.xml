@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping>
+    <!--- ORM (Object-Relational Mapping) hibernate para el objeto "Empleado". -->
+    <class name="com.mycompany.Hibernate_ej.modelo.Empleado" table="employee"> 
+        <id name="id" type="long" column ="id">
+            <generator class="increment" />
+        </id>
+        <property name="primerNombre" type="string" column="firstName" />
+        <property name="salario" type="double" column="salary" />
+        <many-to-one name="departamento" class="com.mycompany.Hibernate_ej.modelo.Departamento" column="department" />
+    </class>
+</hibernate-mapping>

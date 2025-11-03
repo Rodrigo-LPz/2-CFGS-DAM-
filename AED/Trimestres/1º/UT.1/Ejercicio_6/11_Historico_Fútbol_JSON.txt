@@ -1,0 +1,13 @@
+[
+  { "nombre": "Lev Yashin", "edad": 28, "altura": 1.89 },
+  { "nombre": "Cafu", "edad": 30, "altura": 1.76 },
+  { "nombre": "Franco Baresi", "edad": 27, "altura": 1.76 },
+  { "nombre": "Paolo Maldini", "edad": 27, "altura": 1.86 },
+  { "nombre": "Roberto Carlos", "edad": 28, "altura": 1.68 },
+  { "nombre": "Johan Cruyff", "edad": 27, "altura": 1.80 },
+  { "nombre": "Zinedine Zidane", "edad": 28, "altura": 1.85 },
+  { "nombre": "Diego Maradona", "edad": 25, "altura": 1.65 },
+  { "nombre": "Lionel Messi", "edad": 24, "altura": 1.70 },
+  { "nombre": "Pelé", "edad": 26, "altura": 1.73 },
+  { "nombre": "Cristiano Ronaldo", "edad": 27, "altura": 1.87 }
+]

@@ -1,0 +1,3 @@
+com\mycompany\db_conecction\DB_Conecction.class
+com\mycompany\db_conecction\DB_Conecction_PrepareStatement.class
+com\mycompany\db_conecction\DB_Conecction_PrepareStatement_INSERT.class

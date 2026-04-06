@@ -1,0 +1,14 @@
+Ejercicio 2: Resolución de Nombres de Dominio (DNS)
+    Escribe un programa en Java que, dado un nombre de dominio (por ejemplo, www.google.com), muestre su dirección IP correspondiente. Si se introduce una IP, debe intentar recuperar el nombre del dominio.
+
+
+Un dominio es el nombre legible utilizado para acceder a un sitio web (por ejemplo: "google.com"). Mientras que la dirección IP es la dirección numérica real que identifica al servidor en internet (por ejemplo: 142.250.184.4), de forma más humana: al rellenar el formulario de dirección de tu domicilio, la IP sería la 'calle' digital en donde vive o se aloja un puerto de acceso a internet (tu router, un servidor, etc.). Por su parte, el sistema DNS (Domain Name System o en español: Sistema de Nombres de Dominio) es el protocolo de red y el servicio de Internet encargado de traducir dicho dominio a IP para facilitar la navegación humana, su legibilidad.
+
+
+
+Ejecución:
+    * Caso 1 — Dominio:
+        www.google.com
+
+    * Caso 1 — Dominio:
+        8.8.8.8        8.8.8.8

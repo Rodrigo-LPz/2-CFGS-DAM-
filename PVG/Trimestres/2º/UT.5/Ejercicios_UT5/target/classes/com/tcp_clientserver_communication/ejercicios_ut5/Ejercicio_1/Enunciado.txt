@@ -1,0 +1,5 @@
+Ejercicio 1: Creación de un Servidor de Eco (Echo Server) básico.
+    Crea un programa servidor que escuche en el puerto 6000. Cuando un cliente se conecte, el servidor debe recibir un mensaje de texto y devolverlo al cliente convertido a mayúsculas.
+
+
+Un servidor eco (Echo Server) es una aplicación de red básica que escucha las conexiones de los clientes y devuelve exactamente los mismos datos que recibe, repitiendo o haciendo rebotar el mensaje como un 'eco'.

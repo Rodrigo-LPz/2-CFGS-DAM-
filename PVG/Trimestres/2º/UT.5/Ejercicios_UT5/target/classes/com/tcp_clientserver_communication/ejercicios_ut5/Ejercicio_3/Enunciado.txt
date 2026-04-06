@@ -1,0 +1,14 @@
+Ejercicio 3: Cliente FTP con Apache Commons Net
+    Implementa un cliente que se conecte a un servidor FTP anónimo (usando el usuario "anonymous"), liste los archivos del directorio raíz y luego se desconecte. Recuerda que FTP usa el puerto 21 para control.
+
+
+Apache es un servidor web de código abierto, gratuito y muy popular que procesa peticiones HTTP para mostrar páginas web, gestionando archivos como HTML e imágenes.
+Un servidor FTP es un software especializado en la transferencia de archivos (subir/descargar) entre ordenadores a través de una red o internet.
+    Online test server ("Test.Rebex.Net"): https://test.rebex.net/
+
+Los servidores FTP responden con códigos como:
+| Código | Significado      |
+| ------ | ---------------- |
+| 220    | Servicio listo   |
+| 230    | Login correcto   |
+| 530    | Login incorrecto |

@@ -1,0 +1,7 @@
+com\dam\util\HibernateUtil.class
+com\dam\modelo\Lote$EstadoLote.class
+com\dam\modelo\Lote.class
+com\dam\gestion\GestionSupermercado.class
+com\dam\modelo\Producto.class
+com\dam\modelo\Proveedor.class
+com\dam\Main.class

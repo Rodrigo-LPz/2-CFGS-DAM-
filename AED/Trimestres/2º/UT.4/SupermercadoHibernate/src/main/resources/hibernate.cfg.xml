@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+
+<hibernate-configuration>
+    <session-factory>
+        <!-- Configuración de la base de datos -->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>                  <!-- Driver JDBC de MySQL. -->
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/supermercado_hibernate</property> <!-- URL de conexión a la base de datos supermercado_hibernate. -->
+        <property name="hibernate.connection.username">root</property>                                          <!-- Usuario de la base de datos. -->
+        <property name="hibernate.connection.password">root</property>                                          <!-- Contraseña de la base de datos. -->
+        
+        <!-- Dialecto de la base de datos (Dialecto SQL) y configuración SQL-->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>   <!-- Dialecto de MySQL 8 para optimizar las consultas SQL. -->
+        
+        <!-- Pool de conexiones -->
+        <property name="hibernate.connection.pool_size">10</property>   <!-- Número máximo de conexiones en el pool. -->
+        
+        <!-- Configuración y muestreo de LOGS y SQL porconsola -->
+        <property name="hibernate.show_sql">false</property>            <!-- Mostrar SQL en consola ("true" para desarrollo y "false" para producción). -->
+        <property name="hibernate.format_sql">false</property>          <!-- Formatear SQL para mejor legibilidad. -->
+        <property name="hibernate.use_sql_comments">false</property>    <!-- Mostrar comentarios en las consultas SQL. -->
+        <property name="hibernate.logging.level">ERROR</property>       <!-- Reduce/Minimiza los errores de LOGS al iniciar sesión, al logearse, en Hibernate. -->
+    
+        <!-- Gestión automática del esquema -->
+            <!-- Opciones de "hbm2ddl.auto":
+                - create: Crea el esquema, destruyendo datos previos.
+                - create-drop: Crea el esquema y lo destruye al cerrar SessionFactory.
+                - update: Actualiza el esquema (RECOMENDADO PARA DESARROLLO).
+                - validate: Valida el esquema, no hace cambios.
+                - none: No hace nada.
+            -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        
+        <!-- Contexto de sesión actual -->
+        <property name="hibernate.current_session_context_class">thread</property>
+        
+        <!-- Mapeo de clases y archivos -->
+            <!-- Mapeo de archivos Y modificación para JPA. -->
+        <!--
+        <mapping resource="Autor.xml"/>
+        <mapping resource="Ejemplar.xml"/>
+        <mapping resource="Libro.xml"/>
+        -->
+            <!-- Mapeo de clases de entidad -->
+        <mapping class="com.dam.modelo.Proveedor"/> <!-- Mapeo de la clase Proveedor -->
+        <mapping class="com.dam.modelo.Producto"/>  <!-- Mapeo de la clase Producto -->
+        <mapping class="com.dam.modelo.Lote"/>      <!-- Mapeo de la clase Lote -->
+    </session-factory>
+</hibernate-configuration>

@@ -1,0 +1,7 @@
+com\dam\gestion\GestionBiblioteca.class
+com\dam\modelo\Libro.class
+com\dam\util\HibernateUtil.class
+com\dam\modelo\Autor.class
+com\dam\modelo\Ejemplar.class
+com\dam\Main.class
+com\dam\modelo\Ejemplar$EstadoEjemplar.class

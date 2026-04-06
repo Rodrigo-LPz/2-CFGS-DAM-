@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Icono de tipo de fichaje -->
+        <ImageView
+            android:id="@+id/ivPunchIcon"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@android:drawable/ic_menu_upload"
+            android:tint="@android:color/holo_green_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="UseAppTint" />
+
+        <!-- Nombre del empleado -->
+        <TextView
+            android:id="@+id/tvEmployeeName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/ivPunchIcon"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Juan Pérez" />
+
+        <!-- Código del empleado -->
+        <TextView
+            android:id="@+id/tvEmployeeCode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="4dp"
+            android:textSize="12sp"
+            android:textColor="@android:color/darker_gray"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/ivPunchIcon"
+            app:layout_constraintTop_toBottomOf="@id/tvEmployeeName"
+            tools:text="EMP001" />
+
+        <!-- Tipo de fichaje -->
+        <TextView
+            android:id="@+id/tvPunchType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:paddingHorizontal="12dp"
+            android:paddingVertical="4dp"
+            android:background="@android:color/holo_green_light"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            app:layout_constraintStart_toStartOf="@id/tvEmployeeName"
+            app:layout_constraintTop_toBottomOf="@id/tvEmployeeCode"
+            tools:text="ENTRADA" />
+
+        <!-- Fecha y hora -->
+        <TextView
+            android:id="@+id/tvDateTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:textSize="12sp"
+            android:textColor="@android:color/darker_gray"
+            app:layout_constraintBottom_toBottomOf="@id/tvPunchType"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/tvPunchType"
+            app:layout_constraintTop_toTopOf="@id/tvPunchType"
+            tools:text="10/03/2026 08:30" />
+
+        <!-- Notas (opcional) -->
+        <TextView
+            android:id="@+id/tvNotes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="12sp"
+            android:textColor="@android:color/darker_gray"
+            android:textStyle="italic"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/tvEmployeeName"
+            app:layout_constraintTop_toBottomOf="@id/tvPunchType"
+            tools:text="Nota: Entrada matinal"
+            tools:visibility="visible" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

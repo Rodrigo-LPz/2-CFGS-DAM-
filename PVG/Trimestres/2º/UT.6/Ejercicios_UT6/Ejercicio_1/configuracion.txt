@@ -1,8 +1,0 @@
-// Archivo generado con IA.
-
-
-usuario=admin
-puerto=8080
-host=localhost
-timeout=30
-debug=false

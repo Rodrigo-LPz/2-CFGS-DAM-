@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <!-- Título -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Panel de Fichaje"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="60dp" />
+
+    <!-- Bienvenida -->
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bienvenido"
+        android:textSize="20sp"
+        android:textColor="@android:color/darker_gray"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        tools:text="Bienvenido Rodrigo López Pérez" />
+
+    <!-- Código de empleado -->
+    <TextView
+        android:id="@+id/tvEmployeeCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@android:color/darker_gray"
+        app:layout_constraintTop_toBottomOf="@id/tvWelcome"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        tools:text="Código de empleado: EMP001" />
+
+    <!-- Botón Fichar Entrada -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPunchIn"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:text="FICHAR ENTRADA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:icon="@android:drawable/ic_menu_upload"
+        app:iconGravity="textStart"
+        app:layout_constraintTop_toBottomOf="@id/tvEmployeeCode"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="60dp"
+        style="@style/Widget.Material3.Button.ElevatedButton" />
+
+    <!-- Botón Fichar Salida -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnPunchOut"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:text="FICHAR SALIDA"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:icon="@android:drawable/ic_menu_revert"
+        app:iconGravity="textStart"
+        app:layout_constraintTop_toBottomOf="@id/btnPunchIn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        style="@style/Widget.Material3.Button.TonalButton" />
+
+    <!-- Botón Ver Historial -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnViewHistory"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:text="Ver Historial de Fichajes"
+        android:textSize="16sp"
+        app:icon="@android:drawable/ic_menu_recent_history"
+        app:iconGravity="textStart"
+        app:layout_constraintTop_toBottomOf="@id/btnPunchOut"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="32dp"
+        style="@style/Widget.Material3.Button.OutlinedButton" />
+
+    <!-- Botón Gestión de Empleados (Admin) -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnManageEmployees"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:text="Gestión de Empleados"
+        android:textSize="16sp"
+        app:icon="@android:drawable/ic_menu_manage"
+        app:iconGravity="textStart"
+        app:layout_constraintTop_toBottomOf="@id/btnViewHistory"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="16dp"
+        android:visibility="gone"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        tools:visibility="visible" />
+
+    <!-- Mensaje temporal -->
+    <TextView
+        android:id="@+id/tvMessage"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="16sp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/btnManageEmployees"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="24dp"
+        tools:text="✓ Fichaje registrado correctamente"
+        tools:visibility="visible" />
+
+    <!-- ProgressBar -->
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:visibility="visible" />
+</androidx.constraintlayout.widget.ConstraintLayout>

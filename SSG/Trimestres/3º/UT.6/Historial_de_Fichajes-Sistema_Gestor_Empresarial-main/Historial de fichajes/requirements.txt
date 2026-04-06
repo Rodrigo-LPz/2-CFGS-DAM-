@@ -1,0 +1,14 @@
+# requirements.txt
+# Dependencias del proyecto Backend
+
+# Framework web para crear la API
+fastapi==0.115.4
+
+# Servidor ASGI para ejecutar FastAPI
+uvicorn[standard]==0.32.1
+
+# Validación de datos
+pydantic==2.12.1
+pydantic[email]==2.12.1
+
+# Para usar SQLite (viene con Python, pero por si acaso). No requiere instalación adicional en la mayoría de casos

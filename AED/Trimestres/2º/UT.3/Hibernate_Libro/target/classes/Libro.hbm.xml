@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+
+<hibernate-mapping>
+    <!--- ORM (Object-Relational Mapping) hibernate para el objeto "Libro". -->
+    <class name="com.mycompany.Hibernate_Libro.modelo.Libro" table="libro"> 
+        <id name="id" type="long" column ="id">
+            <generator class="increment" />
+        </id>
+        <property name="titulo" type="string" column="titulo" />
+        <property name="anioPublicacion" type="int" column="anio_publicacion" />
+        <property name="isbn" type="string" column="isbn" />
+        <many-to-one name="autor" class="com.mycompany.Hibernate_Libro.modelo.Autor" column="autor_id" />
+    </class>
+</hibernate-mapping>

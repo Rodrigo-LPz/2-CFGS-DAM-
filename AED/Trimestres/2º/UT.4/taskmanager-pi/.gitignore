@@ -1,0 +1,12 @@
+# Secretos
+.env
+
+# Archivos de compilación de Java/Maven
+target/
+*.class
+
+# Configuración del IDE
+.settings/
+.project
+.classpath
+.factorypath

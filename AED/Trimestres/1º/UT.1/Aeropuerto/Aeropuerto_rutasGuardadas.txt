@@ -1,0 +1,3468 @@
+---
+Flight: LPA to MAD
+Carrier: American Airlines
+Duration: 186 minutes
+Total Cost: 334 euros
+---
+---
+Flight: ACE to FUE
+Carrier: Air Berlin
+Duration: 35 minutes
+Total Cost: 131 euros
+---
+---
+Flight: AGP to PMI
+Carrier: Air Berlin
+Duration: 88 minutes
+Total Cost: 200 euros
+---
+---
+Flight: ALC to PMI
+Carrier: Air Berlin
+Duration: 63 minutes
+Total Cost: 193 euros
+---
+---
+Flight: BIO to PMI
+Carrier: Air Berlin
+Duration: 80 minutes
+Total Cost: 156 euros
+---
+---
+Flight: IBZ to PMI
+Carrier: Air Berlin
+Duration: 42 minutes
+Total Cost: 124 euros
+---
+---
+Flight: LEI to PMI
+Carrier: Air Berlin
+Duration: 89 minutes
+Total Cost: 234 euros
+---
+---
+Flight: MAH to PMI
+Carrier: Air Berlin
+Duration: 41 minutes
+Total Cost: 131 euros
+---
+---
+Flight: PMI to AGP
+Carrier: Air Berlin
+Duration: 75 minutes
+Total Cost: 210 euros
+---
+---
+Flight: PMI to ALC
+Carrier: Air Berlin
+Duration: 62 minutes
+Total Cost: 207 euros
+---
+---
+Flight: PMI to BIO
+Carrier: Air Berlin
+Duration: 88 minutes
+Total Cost: 149 euros
+---
+---
+Flight: PMI to IBZ
+Carrier: Air Berlin
+Duration: 44 minutes
+Total Cost: 206 euros
+---
+---
+Flight: PMI to LEI
+Carrier: Air Berlin
+Duration: 70 minutes
+Total Cost: 218 euros
+---
+---
+Flight: PMI to MAH
+Carrier: Air Berlin
+Duration: 43 minutes
+Total Cost: 212 euros
+---
+---
+Flight: PMI to SVQ
+Carrier: Air Berlin
+Duration: 86 minutes
+Total Cost: 169 euros
+---
+---
+Flight: PMI to VLC
+Carrier: Air Berlin
+Duration: 53 minutes
+Total Cost: 184 euros
+---
+---
+Flight: PMI to XRY
+Carrier: Air Berlin
+Duration: 112 minutes
+Total Cost: 202 euros
+---
+---
+Flight: SVQ to PMI
+Carrier: Air Berlin
+Duration: 79 minutes
+Total Cost: 214 euros
+---
+---
+Flight: VLC to PMI
+Carrier: Air Berlin
+Duration: 63 minutes
+Total Cost: 187 euros
+---
+---
+Flight: XRY to PMI
+Carrier: Air Berlin
+Duration: 103 minutes
+Total Cost: 151 euros
+---
+---
+Flight: LPA to TFN
+Carrier: Royal Air Maroc
+Duration: 37 minutes
+Total Cost: 154 euros
+---
+---
+Flight: MAD to VGO
+Carrier: Finnair
+Duration: 63 minutes
+Total Cost: 141 euros
+---
+---
+Flight: MAD to VLC
+Carrier: Finnair
+Duration: 52 minutes
+Total Cost: 239 euros
+---
+---
+Flight: PNA to MAD
+Carrier: Finnair
+Duration: 63 minutes
+Total Cost: 231 euros
+---
+---
+Flight: VGO to MAD
+Carrier: Finnair
+Duration: 68 minutes
+Total Cost: 208 euros
+---
+---
+Flight: VLC to MAD
+Carrier: Finnair
+Duration: 59 minutes
+Total Cost: 226 euros
+---
+---
+Flight: BCN to PMI
+Carrier: Alitalia
+Duration: 45 minutes
+Total Cost: 185 euros
+---
+---
+Flight: BCN to TFN
+Carrier: Alitalia
+Duration: 199 minutes
+Total Cost: 495 euros
+---
+---
+Flight: IBZ to MAD
+Carrier: Alitalia
+Duration: 70 minutes
+Total Cost: 199 euros
+---
+---
+Flight: LCG to MAD
+Carrier: Alitalia
+Duration: 67 minutes
+Total Cost: 231 euros
+---
+---
+Flight: LPA to MAD
+Carrier: Alitalia
+Duration: 140 minutes
+Total Cost: 544 euros
+---
+---
+Flight: MAD to FUE
+Carrier: Alitalia
+Duration: 154 minutes
+Total Cost: 302 euros
+---
+---
+Flight: MAD to IBZ
+Carrier: Alitalia
+Duration: 71 minutes
+Total Cost: 122 euros
+---
+---
+Flight: MAD to LCG
+Carrier: Alitalia
+Duration: 71 minutes
+Total Cost: 135 euros
+---
+---
+Flight: MAD to LPA
+Carrier: Alitalia
+Duration: 244 minutes
+Total Cost: 428 euros
+---
+---
+Flight: MAD to PMI
+Carrier: Alitalia
+Duration: 87 minutes
+Total Cost: 206 euros
+---
+---
+Flight: MAD to TFN
+Carrier: Alitalia
+Duration: 207 minutes
+Total Cost: 482 euros
+---
+---
+Flight: MAD to VGO
+Carrier: Alitalia
+Duration: 63 minutes
+Total Cost: 210 euros
+---
+---
+Flight: PMI to BCN
+Carrier: Alitalia
+Duration: 51 minutes
+Total Cost: 195 euros
+---
+---
+Flight: PMI to MAD
+Carrier: Alitalia
+Duration: 82 minutes
+Total Cost: 188 euros
+---
+---
+Flight: PMI to VLC
+Carrier: Alitalia
+Duration: 62 minutes
+Total Cost: 145 euros
+---
+---
+Flight: TFN to MAD
+Carrier: Alitalia
+Duration: 207 minutes
+Total Cost: 494 euros
+---
+---
+Flight: VGO to MAD
+Carrier: Alitalia
+Duration: 84 minutes
+Total Cost: 121 euros
+---
+---
+Flight: VLC to PMI
+Carrier: Alitalia
+Duration: 53 minutes
+Total Cost: 171 euros
+---
+---
+Flight: ACE to FUE
+Carrier: Condor Flugdienst
+Duration: 35 minutes
+Total Cost: 78 euros
+---
+---
+Flight: ACE to BCN
+Carrier: Ryanair
+Duration: 166 minutes
+Total Cost: 489 euros
+---
+---
+Flight: ACE to MAD
+Carrier: Ryanair
+Duration: 136 minutes
+Total Cost: 366 euros
+---
+---
+Flight: ACE to SCQ
+Carrier: Ryanair
+Duration: 181 minutes
+Total Cost: 401 euros
+---
+---
+Flight: ACE to SDR
+Carrier: Ryanair
+Duration: 172 minutes
+Total Cost: 442 euros
+---
+---
+Flight: ACE to SVQ
+Carrier: Ryanair
+Duration: 123 minutes
+Total Cost: 277 euros
+---
+---
+Flight: ACE to ZAZ
+Carrier: Ryanair
+Duration: 164 minutes
+Total Cost: 321 euros
+---
+---
+Flight: AGP to BCN
+Carrier: Ryanair
+Duration: 95 minutes
+Total Cost: 159 euros
+---
+---
+Flight: AGP to IBZ
+Carrier: Ryanair
+Duration: 85 minutes
+Total Cost: 106 euros
+---
+---
+Flight: AGP to PMI
+Carrier: Ryanair
+Duration: 95 minutes
+Total Cost: 215 euros
+---
+---
+Flight: AGP to SCQ
+Carrier: Ryanair
+Duration: 78 minutes
+Total Cost: 226 euros
+---
+---
+Flight: AGP to SDR
+Carrier: Ryanair
+Duration: 94 minutes
+Total Cost: 144 euros
+---
+---
+Flight: ALC to SCQ
+Carrier: Ryanair
+Duration: 82 minutes
+Total Cost: 239 euros
+---
+---
+Flight: BCN to ACE
+Carrier: Ryanair
+Duration: 188 minutes
+Total Cost: 315 euros
+---
+---
+Flight: BCN to AGP
+Carrier: Ryanair
+Duration: 115 minutes
+Total Cost: 183 euros
+---
+---
+Flight: BCN to FUE
+Carrier: Ryanair
+Duration: 176 minutes
+Total Cost: 402 euros
+---
+---
+Flight: BCN to IBZ
+Carrier: Ryanair
+Duration: 47 minutes
+Total Cost: 181 euros
+---
+---
+Flight: BCN to LPA
+Carrier: Ryanair
+Duration: 219 minutes
+Total Cost: 381 euros
+---
+---
+Flight: BCN to MAH
+Carrier: Ryanair
+Duration: 52 minutes
+Total Cost: 189 euros
+---
+---
+Flight: BCN to PMI
+Carrier: Ryanair
+Duration: 47 minutes
+Total Cost: 162 euros
+---
+---
+Flight: BCN to SCQ
+Carrier: Ryanair
+Duration: 116 minutes
+Total Cost: 248 euros
+---
+---
+Flight: BCN to SDR
+Carrier: Ryanair
+Duration: 71 minutes
+Total Cost: 154 euros
+---
+---
+Flight: BCN to SVQ
+Carrier: Ryanair
+Duration: 99 minutes
+Total Cost: 128 euros
+---
+---
+Flight: BCN to TFN
+Carrier: Ryanair
+Duration: 169 minutes
+Total Cost: 409 euros
+---
+---
+Flight: BCN to TFS
+Carrier: Ryanair
+Duration: 294 minutes
+Total Cost: 568 euros
+---
+---
+Flight: BCN to VLL
+Carrier: Ryanair
+Duration: 80 minutes
+Total Cost: 233 euros
+---
+---
+Flight: BCN to XRY
+Carrier: Ryanair
+Duration: 114 minutes
+Total Cost: 232 euros
+---
+---
+Flight: FUE to BCN
+Carrier: Ryanair
+Duration: 185 minutes
+Total Cost: 387 euros
+---
+---
+Flight: FUE to MAD
+Carrier: Ryanair
+Duration: 178 minutes
+Total Cost: 382 euros
+---
+---
+Flight: GRO to IBZ
+Carrier: Ryanair
+Duration: 66 minutes
+Total Cost: 235 euros
+---
+---
+Flight: GRO to PMI
+Carrier: Ryanair
+Duration: 53 minutes
+Total Cost: 137 euros
+---
+---
+Flight: IBZ to AGP
+Carrier: Ryanair
+Duration: 80 minutes
+Total Cost: 228 euros
+---
+---
+Flight: IBZ to BCN
+Carrier: Ryanair
+Duration: 52 minutes
+Total Cost: 220 euros
+---
+---
+Flight: IBZ to GRO
+Carrier: Ryanair
+Duration: 58 minutes
+Total Cost: 128 euros
+---
+---
+Flight: IBZ to MAD
+Carrier: Ryanair
+Duration: 64 minutes
+Total Cost: 240 euros
+---
+---
+Flight: IBZ to VLC
+Carrier: Ryanair
+Duration: 43 minutes
+Total Cost: 211 euros
+---
+---
+Flight: LPA to BCN
+Carrier: Ryanair
+Duration: 243 minutes
+Total Cost: 475 euros
+---
+---
+Flight: LPA to MAD
+Carrier: Ryanair
+Duration: 167 minutes
+Total Cost: 338 euros
+---
+---
+Flight: LPA to SCQ
+Carrier: Ryanair
+Duration: 199 minutes
+Total Cost: 429 euros
+---
+---
+Flight: LPA to SDR
+Carrier: Ryanair
+Duration: 214 minutes
+Total Cost: 415 euros
+---
+---
+Flight: LPA to SVQ
+Carrier: Ryanair
+Duration: 191 minutes
+Total Cost: 445 euros
+---
+---
+Flight: LPA to VLC
+Carrier: Ryanair
+Duration: 230 minutes
+Total Cost: 538 euros
+---
+---
+Flight: MAD to ACE
+Carrier: Ryanair
+Duration: 155 minutes
+Total Cost: 345 euros
+---
+---
+Flight: MAD to FUE
+Carrier: Ryanair
+Duration: 222 minutes
+Total Cost: 331 euros
+---
+---
+Flight: MAD to IBZ
+Carrier: Ryanair
+Duration: 69 minutes
+Total Cost: 124 euros
+---
+---
+Flight: MAD to LPA
+Carrier: Ryanair
+Duration: 209 minutes
+Total Cost: 362 euros
+---
+---
+Flight: MAD to PMI
+Carrier: Ryanair
+Duration: 87 minutes
+Total Cost: 235 euros
+---
+---
+Flight: MAD to SCQ
+Carrier: Ryanair
+Duration: 81 minutes
+Total Cost: 173 euros
+---
+---
+Flight: MAD to TFN
+Carrier: Ryanair
+Duration: 165 minutes
+Total Cost: 433 euros
+---
+---
+Flight: MAD to TFS
+Carrier: Ryanair
+Duration: 199 minutes
+Total Cost: 505 euros
+---
+---
+Flight: MAH to BCN
+Carrier: Ryanair
+Duration: 57 minutes
+Total Cost: 211 euros
+---
+---
+Flight: MAH to VLC
+Carrier: Ryanair
+Duration: 60 minutes
+Total Cost: 211 euros
+---
+---
+Flight: PMI to AGP
+Carrier: Ryanair
+Duration: 105 minutes
+Total Cost: 262 euros
+---
+---
+Flight: PMI to BCN
+Carrier: Ryanair
+Duration: 42 minutes
+Total Cost: 147 euros
+---
+---
+Flight: PMI to GRO
+Carrier: Ryanair
+Duration: 56 minutes
+Total Cost: 91 euros
+---
+---
+Flight: PMI to MAD
+Carrier: Ryanair
+Duration: 76 minutes
+Total Cost: 148 euros
+---
+---
+Flight: PMI to REU
+Carrier: Ryanair
+Duration: 46 minutes
+Total Cost: 85 euros
+---
+---
+Flight: PMI to SCQ
+Carrier: Ryanair
+Duration: 132 minutes
+Total Cost: 384 euros
+---
+---
+Flight: PMI to SDR
+Carrier: Ryanair
+Duration: 93 minutes
+Total Cost: 180 euros
+---
+---
+Flight: PMI to SVQ
+Carrier: Ryanair
+Duration: 116 minutes
+Total Cost: 143 euros
+---
+---
+Flight: PMI to VLC
+Carrier: Ryanair
+Duration: 47 minutes
+Total Cost: 200 euros
+---
+---
+Flight: REU to PMI
+Carrier: Ryanair
+Duration: 55 minutes
+Total Cost: 49 euros
+---
+---
+Flight: SCQ to ACE
+Carrier: Ryanair
+Duration: 174 minutes
+Total Cost: 265 euros
+---
+---
+Flight: SCQ to AGP
+Carrier: Ryanair
+Duration: 85 minutes
+Total Cost: 233 euros
+---
+---
+Flight: SCQ to ALC
+Carrier: Ryanair
+Duration: 82 minutes
+Total Cost: 149 euros
+---
+---
+Flight: SCQ to BCN
+Carrier: Ryanair
+Duration: 127 minutes
+Total Cost: 232 euros
+---
+---
+Flight: SCQ to LPA
+Carrier: Ryanair
+Duration: 179 minutes
+Total Cost: 375 euros
+---
+---
+Flight: SCQ to MAD
+Carrier: Ryanair
+Duration: 69 minutes
+Total Cost: 243 euros
+---
+---
+Flight: SCQ to PMI
+Carrier: Ryanair
+Duration: 99 minutes
+Total Cost: 274 euros
+---
+---
+Flight: SCQ to SVQ
+Carrier: Ryanair
+Duration: 82 minutes
+Total Cost: 180 euros
+---
+---
+Flight: SCQ to TFS
+Carrier: Ryanair
+Duration: 184 minutes
+Total Cost: 429 euros
+---
+---
+Flight: SCQ to VLC
+Carrier: Ryanair
+Duration: 92 minutes
+Total Cost: 263 euros
+---
+---
+Flight: SDR to ACE
+Carrier: Ryanair
+Duration: 183 minutes
+Total Cost: 351 euros
+---
+---
+Flight: SDR to AGP
+Carrier: Ryanair
+Duration: 96 minutes
+Total Cost: 284 euros
+---
+---
+Flight: SDR to BCN
+Carrier: Ryanair
+Duration: 64 minutes
+Total Cost: 129 euros
+---
+---
+Flight: SDR to LPA
+Carrier: Ryanair
+Duration: 232 minutes
+Total Cost: 502 euros
+---
+---
+Flight: SDR to PMI
+Carrier: Ryanair
+Duration: 87 minutes
+Total Cost: 214 euros
+---
+---
+Flight: SDR to SVQ
+Carrier: Ryanair
+Duration: 82 minutes
+Total Cost: 206 euros
+---
+---
+Flight: SDR to TFS
+Carrier: Ryanair
+Duration: 275 minutes
+Total Cost: 508 euros
+---
+---
+Flight: SDR to VLC
+Carrier: Ryanair
+Duration: 71 minutes
+Total Cost: 246 euros
+---
+---
+Flight: SVQ to ACE
+Carrier: Ryanair
+Duration: 105 minutes
+Total Cost: 348 euros
+---
+---
+Flight: SVQ to BCN
+Carrier: Ryanair
+Duration: 84 minutes
+Total Cost: 242 euros
+---
+---
+Flight: SVQ to LPA
+Carrier: Ryanair
+Duration: 124 minutes
+Total Cost: 418 euros
+---
+---
+Flight: SVQ to PMI
+Carrier: Ryanair
+Duration: 111 minutes
+Total Cost: 288 euros
+---
+---
+Flight: SVQ to SCQ
+Carrier: Ryanair
+Duration: 75 minutes
+Total Cost: 134 euros
+---
+---
+Flight: SVQ to SDR
+Carrier: Ryanair
+Duration: 108 minutes
+Total Cost: 188 euros
+---
+---
+Flight: SVQ to TFS
+Carrier: Ryanair
+Duration: 135 minutes
+Total Cost: 371 euros
+---
+---
+Flight: TFN to BCN
+Carrier: Ryanair
+Duration: 173 minutes
+Total Cost: 494 euros
+---
+---
+Flight: TFN to MAD
+Carrier: Ryanair
+Duration: 148 minutes
+Total Cost: 454 euros
+---
+---
+Flight: TFS to BCN
+Carrier: Ryanair
+Duration: 203 minutes
+Total Cost: 495 euros
+---
+---
+Flight: TFS to MAD
+Carrier: Ryanair
+Duration: 225 minutes
+Total Cost: 430 euros
+---
+---
+Flight: TFS to SCQ
+Carrier: Ryanair
+Duration: 179 minutes
+Total Cost: 439 euros
+---
+---
+Flight: TFS to SDR
+Carrier: Ryanair
+Duration: 210 minutes
+Total Cost: 460 euros
+---
+---
+Flight: TFS to SVQ
+Carrier: Ryanair
+Duration: 129 minutes
+Total Cost: 411 euros
+---
+---
+Flight: TFS to VLC
+Carrier: Ryanair
+Duration: 178 minutes
+Total Cost: 366 euros
+---
+---
+Flight: VLC to IBZ
+Carrier: Ryanair
+Duration: 47 minutes
+Total Cost: 110 euros
+---
+---
+Flight: VLC to LPA
+Carrier: Ryanair
+Duration: 178 minutes
+Total Cost: 416 euros
+---
+---
+Flight: VLC to MAH
+Carrier: Ryanair
+Duration: 69 minutes
+Total Cost: 179 euros
+---
+---
+Flight: VLC to PMI
+Carrier: Ryanair
+Duration: 63 minutes
+Total Cost: 164 euros
+---
+---
+Flight: VLC to SCQ
+Carrier: Ryanair
+Duration: 94 minutes
+Total Cost: 236 euros
+---
+---
+Flight: VLC to SDR
+Carrier: Ryanair
+Duration: 81 minutes
+Total Cost: 256 euros
+---
+---
+Flight: VLC to TFS
+Carrier: Ryanair
+Duration: 161 minutes
+Total Cost: 380 euros
+---
+---
+Flight: VLL to BCN
+Carrier: Ryanair
+Duration: 89 minutes
+Total Cost: 176 euros
+---
+---
+Flight: XRY to BCN
+Carrier: Ryanair
+Duration: 122 minutes
+Total Cost: 217 euros
+---
+---
+Flight: ZAZ to ACE
+Carrier: Ryanair
+Duration: 153 minutes
+Total Cost: 499 euros
+---
+---
+Flight: ACE to FUE
+Carrier: Niki
+Duration: 36 minutes
+Total Cost: 99 euros
+---
+---
+Flight: ACE to FUE
+Carrier: Harmony Airways
+Duration: 35 minutes
+Total Cost: 33 euros
+---
+---
+Flight: FUE to TFS
+Carrier: Harmony Airways
+Duration: 48 minutes
+Total Cost: 99 euros
+---
+---
+Flight: IBZ to MAH
+Carrier: Harmony Airways
+Duration: 47 minutes
+Total Cost: 188 euros
+---
+---
+Flight: MAH to GRO
+Carrier: Harmony Airways
+Duration: 46 minutes
+Total Cost: 216 euros
+---
+---
+Flight: FUE to ACE
+Carrier: Transavia Holland
+Duration: 33 minutes
+Total Cost: 186 euros
+---
+---
+Flight: LPA to ACE
+Carrier: Transavia Holland
+Duration: 46 minutes
+Total Cost: 198 euros
+---
+---
+Flight: SVQ to LEI
+Carrier: Transavia Holland
+Duration: 68 minutes
+Total Cost: 132 euros
+---
+---
+Flight: TFS to LPA
+Carrier: Transavia Holland
+Duration: 38 minutes
+Total Cost: 74 euros
+---
+---
+Flight: ACE to BCN
+Carrier: Iberia Airlines
+Duration: 178 minutes
+Total Cost: 529 euros
+---
+---
+Flight: ACE to BIO
+Carrier: Iberia Airlines
+Duration: 259 minutes
+Total Cost: 492 euros
+---
+---
+Flight: ACE to MAD
+Carrier: Iberia Airlines
+Duration: 147 minutes
+Total Cost: 454 euros
+---
+---
+Flight: AGP to BCN
+Carrier: Iberia Airlines
+Duration: 114 minutes
+Total Cost: 273 euros
+---
+---
+Flight: AGP to BIO
+Carrier: Iberia Airlines
+Duration: 105 minutes
+Total Cost: 274 euros
+---
+---
+Flight: AGP to LPA
+Carrier: Iberia Airlines
+Duration: 149 minutes
+Total Cost: 241 euros
+---
+---
+Flight: AGP to MAD
+Carrier: Iberia Airlines
+Duration: 56 minutes
+Total Cost: 116 euros
+---
+---
+Flight: AGP to MLN
+Carrier: Iberia Airlines
+Duration: 47 minutes
+Total Cost: 119 euros
+---
+---
+Flight: AGP to OVD
+Carrier: Iberia Airlines
+Duration: 84 minutes
+Total Cost: 148 euros
+---
+---
+Flight: AGP to PMI
+Carrier: Iberia Airlines
+Duration: 115 minutes
+Total Cost: 278 euros
+---
+---
+Flight: AGP to SCQ
+Carrier: Iberia Airlines
+Duration: 91 minutes
+Total Cost: 284 euros
+---
+---
+Flight: AGP to TFN
+Carrier: Iberia Airlines
+Duration: 143 minutes
+Total Cost: 302 euros
+---
+---
+Flight: AGP to VLC
+Carrier: Iberia Airlines
+Duration: 66 minutes
+Total Cost: 103 euros
+---
+---
+Flight: ALC to BCN
+Carrier: Iberia Airlines
+Duration: 55 minutes
+Total Cost: 248 euros
+---
+---
+Flight: ALC to BIO
+Carrier: Iberia Airlines
+Duration: 79 minutes
+Total Cost: 251 euros
+---
+---
+Flight: ALC to IBZ
+Carrier: Iberia Airlines
+Duration: 42 minutes
+Total Cost: 184 euros
+---
+---
+Flight: ALC to LPA
+Carrier: Iberia Airlines
+Duration: 213 minutes
+Total Cost: 293 euros
+---
+---
+Flight: ALC to MAD
+Carrier: Iberia Airlines
+Duration: 57 minutes
+Total Cost: 113 euros
+---
+---
+Flight: ALC to PMI
+Carrier: Iberia Airlines
+Duration: 53 minutes
+Total Cost: 219 euros
+---
+---
+Flight: BCN to ACE
+Carrier: Iberia Airlines
+Duration: 219 minutes
+Total Cost: 426 euros
+---
+---
+Flight: BCN to AGP
+Carrier: Iberia Airlines
+Duration: 106 minutes
+Total Cost: 141 euros
+---
+---
+Flight: BCN to ALC
+Carrier: Iberia Airlines
+Duration: 62 minutes
+Total Cost: 252 euros
+---
+---
+Flight: BCN to BIO
+Carrier: Iberia Airlines
+Duration: 61 minutes
+Total Cost: 126 euros
+---
+---
+Flight: BCN to EAS
+Carrier: Iberia Airlines
+Duration: 65 minutes
+Total Cost: 212 euros
+---
+---
+Flight: BCN to FUE
+Carrier: Iberia Airlines
+Duration: 251 minutes
+Total Cost: 569 euros
+---
+---
+Flight: BCN to GRX
+Carrier: Iberia Airlines
+Duration: 98 minutes
+Total Cost: 183 euros
+---
+---
+Flight: BCN to IBZ
+Carrier: Iberia Airlines
+Duration: 58 minutes
+Total Cost: 141 euros
+---
+---
+Flight: BCN to LCG
+Carrier: Iberia Airlines
+Duration: 125 minutes
+Total Cost: 262 euros
+---
+---
+Flight: BCN to LEI
+Carrier: Iberia Airlines
+Duration: 77 minutes
+Total Cost: 217 euros
+---
+---
+Flight: BCN to LEN
+Carrier: Iberia Airlines
+Duration: 72 minutes
+Total Cost: 133 euros
+---
+---
+Flight: BCN to LPA
+Carrier: Iberia Airlines
+Duration: 201 minutes
+Total Cost: 484 euros
+---
+---
+Flight: BCN to MAD
+Carrier: Iberia Airlines
+Duration: 66 minutes
+Total Cost: 150 euros
+---
+---
+Flight: BCN to MAH
+Carrier: Iberia Airlines
+Duration: 54 minutes
+Total Cost: 98 euros
+---
+---
+Flight: BCN to OVD
+Carrier: Iberia Airlines
+Duration: 101 minutes
+Total Cost: 243 euros
+---
+---
+Flight: BCN to PMI
+Carrier: Iberia Airlines
+Duration: 49 minutes
+Total Cost: 83 euros
+---
+---
+Flight: BCN to RGS
+Carrier: Iberia Airlines
+Duration: 86 minutes
+Total Cost: 253 euros
+---
+---
+Flight: BCN to SCQ
+Carrier: Iberia Airlines
+Duration: 106 minutes
+Total Cost: 225 euros
+---
+---
+Flight: BCN to SDR
+Carrier: Iberia Airlines
+Duration: 88 minutes
+Total Cost: 255 euros
+---
+---
+Flight: BCN to SLM
+Carrier: Iberia Airlines
+Duration: 81 minutes
+Total Cost: 181 euros
+---
+---
+Flight: BCN to SVQ
+Carrier: Iberia Airlines
+Duration: 117 minutes
+Total Cost: 181 euros
+---
+---
+Flight: BCN to TFN
+Carrier: Iberia Airlines
+Duration: 241 minutes
+Total Cost: 627 euros
+---
+---
+Flight: BCN to TFS
+Carrier: Iberia Airlines
+Duration: 259 minutes
+Total Cost: 618 euros
+---
+---
+Flight: BCN to VGO
+Carrier: Iberia Airlines
+Duration: 87 minutes
+Total Cost: 300 euros
+---
+---
+Flight: BCN to VLL
+Carrier: Iberia Airlines
+Duration: 68 minutes
+Total Cost: 237 euros
+---
+---
+Flight: BCN to XRY
+Carrier: Iberia Airlines
+Duration: 109 minutes
+Total Cost: 252 euros
+---
+---
+Flight: BIO to ACE
+Carrier: Iberia Airlines
+Duration: 245 minutes
+Total Cost: 469 euros
+---
+---
+Flight: BIO to AGP
+Carrier: Iberia Airlines
+Duration: 86 minutes
+Total Cost: 172 euros
+---
+---
+Flight: BIO to ALC
+Carrier: Iberia Airlines
+Duration: 71 minutes
+Total Cost: 202 euros
+---
+---
+Flight: BIO to BCN
+Carrier: Iberia Airlines
+Duration: 79 minutes
+Total Cost: 105 euros
+---
+---
+Flight: BIO to FUE
+Carrier: Iberia Airlines
+Duration: 246 minutes
+Total Cost: 410 euros
+---
+---
+Flight: BIO to IBZ
+Carrier: Iberia Airlines
+Duration: 68 minutes
+Total Cost: 244 euros
+---
+---
+Flight: BIO to LCG
+Carrier: Iberia Airlines
+Duration: 67 minutes
+Total Cost: 108 euros
+---
+---
+Flight: BIO to LPA
+Carrier: Iberia Airlines
+Duration: 185 minutes
+Total Cost: 457 euros
+---
+---
+Flight: BIO to MAD
+Carrier: Iberia Airlines
+Duration: 58 minutes
+Total Cost: 66 euros
+---
+---
+Flight: BIO to PMI
+Carrier: Iberia Airlines
+Duration: 71 minutes
+Total Cost: 159 euros
+---
+---
+Flight: BIO to SCQ
+Carrier: Iberia Airlines
+Duration: 84 minutes
+Total Cost: 149 euros
+---
+---
+Flight: BIO to SVQ
+Carrier: Iberia Airlines
+Duration: 82 minutes
+Total Cost: 163 euros
+---
+---
+Flight: BIO to TFN
+Carrier: Iberia Airlines
+Duration: 163 minutes
+Total Cost: 494 euros
+---
+---
+Flight: BIO to VGO
+Carrier: Iberia Airlines
+Duration: 62 minutes
+Total Cost: 268 euros
+---
+---
+Flight: BIO to VLC
+Carrier: Iberia Airlines
+Duration: 85 minutes
+Total Cost: 169 euros
+---
+---
+Flight: EAS to BCN
+Carrier: Iberia Airlines
+Duration: 60 minutes
+Total Cost: 203 euros
+---
+---
+Flight: EAS to MAD
+Carrier: Iberia Airlines
+Duration: 56 minutes
+Total Cost: 106 euros
+---
+---
+Flight: FUE to BCN
+Carrier: Iberia Airlines
+Duration: 199 minutes
+Total Cost: 432 euros
+---
+---
+Flight: FUE to BIO
+Carrier: Iberia Airlines
+Duration: 225 minutes
+Total Cost: 359 euros
+---
+---
+Flight: FUE to MAD
+Carrier: Iberia Airlines
+Duration: 188 minutes
+Total Cost: 254 euros
+---
+---
+Flight: GRX to BCN
+Carrier: Iberia Airlines
+Duration: 74 minutes
+Total Cost: 222 euros
+---
+---
+Flight: GRX to MAD
+Carrier: Iberia Airlines
+Duration: 62 minutes
+Total Cost: 73 euros
+---
+---
+Flight: GRX to MLN
+Carrier: Iberia Airlines
+Duration: 46 minutes
+Total Cost: 125 euros
+---
+---
+Flight: GRX to PMI
+Carrier: Iberia Airlines
+Duration: 91 minutes
+Total Cost: 271 euros
+---
+---
+Flight: IBZ to ALC
+Carrier: Iberia Airlines
+Duration: 41 minutes
+Total Cost: 106 euros
+---
+---
+Flight: IBZ to BCN
+Carrier: Iberia Airlines
+Duration: 48 minutes
+Total Cost: 54 euros
+---
+---
+Flight: IBZ to BIO
+Carrier: Iberia Airlines
+Duration: 72 minutes
+Total Cost: 127 euros
+---
+---
+Flight: IBZ to MAD
+Carrier: Iberia Airlines
+Duration: 80 minutes
+Total Cost: 239 euros
+---
+---
+Flight: IBZ to PMI
+Carrier: Iberia Airlines
+Duration: 42 minutes
+Total Cost: 148 euros
+---
+---
+Flight: IBZ to VLC
+Carrier: Iberia Airlines
+Duration: 42 minutes
+Total Cost: 129 euros
+---
+---
+Flight: ILD to PMI
+Carrier: Iberia Airlines
+Duration: 52 minutes
+Total Cost: 218 euros
+---
+---
+Flight: LCG to BCN
+Carrier: Iberia Airlines
+Duration: 91 minutes
+Total Cost: 362 euros
+---
+---
+Flight: LCG to BIO
+Carrier: Iberia Airlines
+Duration: 70 minutes
+Total Cost: 190 euros
+---
+---
+Flight: LCG to MAD
+Carrier: Iberia Airlines
+Duration: 65 minutes
+Total Cost: 263 euros
+---
+---
+Flight: LCG to SVQ
+Carrier: Iberia Airlines
+Duration: 83 minutes
+Total Cost: 245 euros
+---
+---
+Flight: LEI to BCN
+Carrier: Iberia Airlines
+Duration: 76 minutes
+Total Cost: 225 euros
+---
+---
+Flight: LEI to MAD
+Carrier: Iberia Airlines
+Duration: 67 minutes
+Total Cost: 94 euros
+---
+---
+Flight: LEI to MLN
+Carrier: Iberia Airlines
+Duration: 49 minutes
+Total Cost: 80 euros
+---
+---
+Flight: LEN to BCN
+Carrier: Iberia Airlines
+Duration: 95 minutes
+Total Cost: 171 euros
+---
+---
+Flight: LPA to AGP
+Carrier: Iberia Airlines
+Duration: 195 minutes
+Total Cost: 255 euros
+---
+---
+Flight: LPA to ALC
+Carrier: Iberia Airlines
+Duration: 238 minutes
+Total Cost: 328 euros
+---
+---
+Flight: LPA to BCN
+Carrier: Iberia Airlines
+Duration: 193 minutes
+Total Cost: 405 euros
+---
+---
+Flight: LPA to BIO
+Carrier: Iberia Airlines
+Duration: 231 minutes
+Total Cost: 476 euros
+---
+---
+Flight: LPA to MAD
+Carrier: Iberia Airlines
+Duration: 144 minutes
+Total Cost: 353 euros
+---
+---
+Flight: LPA to SCQ
+Carrier: Iberia Airlines
+Duration: 246 minutes
+Total Cost: 413 euros
+---
+---
+Flight: LPA to SVQ
+Carrier: Iberia Airlines
+Duration: 168 minutes
+Total Cost: 313 euros
+---
+---
+Flight: LPA to VLC
+Carrier: Iberia Airlines
+Duration: 253 minutes
+Total Cost: 451 euros
+---
+---
+Flight: MAD to ACE
+Carrier: Iberia Airlines
+Duration: 161 minutes
+Total Cost: 251 euros
+---
+---
+Flight: MAD to AGP
+Carrier: Iberia Airlines
+Duration: 63 minutes
+Total Cost: 241 euros
+---
+---
+Flight: MAD to ALC
+Carrier: Iberia Airlines
+Duration: 65 minutes
+Total Cost: 236 euros
+---
+---
+Flight: MAD to BCN
+Carrier: Iberia Airlines
+Duration: 63 minutes
+Total Cost: 194 euros
+---
+---
+Flight: MAD to BIO
+Carrier: Iberia Airlines
+Duration: 51 minutes
+Total Cost: 122 euros
+---
+---
+Flight: MAD to EAS
+Carrier: Iberia Airlines
+Duration: 51 minutes
+Total Cost: 227 euros
+---
+---
+Flight: MAD to FUE
+Carrier: Iberia Airlines
+Duration: 148 minutes
+Total Cost: 461 euros
+---
+---
+Flight: MAD to GRX
+Carrier: Iberia Airlines
+Duration: 72 minutes
+Total Cost: 237 euros
+---
+---
+Flight: MAD to IBZ
+Carrier: Iberia Airlines
+Duration: 81 minutes
+Total Cost: 175 euros
+---
+---
+Flight: MAD to LCG
+Carrier: Iberia Airlines
+Duration: 82 minutes
+Total Cost: 197 euros
+---
+---
+Flight: MAD to LEI
+Carrier: Iberia Airlines
+Duration: 71 minutes
+Total Cost: 170 euros
+---
+---
+Flight: MAD to LPA
+Carrier: Iberia Airlines
+Duration: 147 minutes
+Total Cost: 349 euros
+---
+---
+Flight: MAD to MAH
+Carrier: Iberia Airlines
+Duration: 100 minutes
+Total Cost: 284 euros
+---
+---
+Flight: MAD to MJV
+Carrier: Iberia Airlines
+Duration: 71 minutes
+Total Cost: 175 euros
+---
+---
+Flight: MAD to MLN
+Carrier: Iberia Airlines
+Duration: 92 minutes
+Total Cost: 192 euros
+---
+---
+Flight: MAD to OVD
+Carrier: Iberia Airlines
+Duration: 73 minutes
+Total Cost: 245 euros
+---
+---
+Flight: MAD to PMI
+Carrier: Iberia Airlines
+Duration: 82 minutes
+Total Cost: 209 euros
+---
+---
+Flight: MAD to PNA
+Carrier: Iberia Airlines
+Duration: 54 minutes
+Total Cost: 199 euros
+---
+---
+Flight: MAD to RJL
+Carrier: Iberia Airlines
+Duration: 50 minutes
+Total Cost: 148 euros
+---
+---
+Flight: MAD to SCQ
+Carrier: Iberia Airlines
+Duration: 69 minutes
+Total Cost: 141 euros
+---
+---
+Flight: MAD to SDR
+Carrier: Iberia Airlines
+Duration: 68 minutes
+Total Cost: 194 euros
+---
+---
+Flight: MAD to SPC
+Carrier: Iberia Airlines
+Duration: 146 minutes
+Total Cost: 405 euros
+---
+---
+Flight: MAD to SVQ
+Carrier: Iberia Airlines
+Duration: 58 minutes
+Total Cost: 216 euros
+---
+---
+Flight: MAD to TFN
+Carrier: Iberia Airlines
+Duration: 247 minutes
+Total Cost: 251 euros
+---
+---
+Flight: MAD to TFS
+Carrier: Iberia Airlines
+Duration: 160 minutes
+Total Cost: 367 euros
+---
+---
+Flight: MAD to VGO
+Carrier: Iberia Airlines
+Duration: 67 minutes
+Total Cost: 94 euros
+---
+---
+Flight: MAD to VLC
+Carrier: Iberia Airlines
+Duration: 51 minutes
+Total Cost: 129 euros
+---
+---
+Flight: MAD to XRY
+Carrier: Iberia Airlines
+Duration: 67 minutes
+Total Cost: 130 euros
+---
+---
+Flight: MAH to BCN
+Carrier: Iberia Airlines
+Duration: 46 minutes
+Total Cost: 164 euros
+---
+---
+Flight: MAH to MAD
+Carrier: Iberia Airlines
+Duration: 109 minutes
+Total Cost: 219 euros
+---
+---
+Flight: MAH to PMI
+Carrier: Iberia Airlines
+Duration: 42 minutes
+Total Cost: 115 euros
+---
+---
+Flight: MAH to VLC
+Carrier: Iberia Airlines
+Duration: 56 minutes
+Total Cost: 96 euros
+---
+---
+Flight: MJV to MAD
+Carrier: Iberia Airlines
+Duration: 70 minutes
+Total Cost: 129 euros
+---
+---
+Flight: MLN to AGP
+Carrier: Iberia Airlines
+Duration: 44 minutes
+Total Cost: 108 euros
+---
+---
+Flight: MLN to GRX
+Carrier: Iberia Airlines
+Duration: 49 minutes
+Total Cost: 116 euros
+---
+---
+Flight: MLN to LEI
+Carrier: Iberia Airlines
+Duration: 48 minutes
+Total Cost: 63 euros
+---
+---
+Flight: MLN to MAD
+Carrier: Iberia Airlines
+Duration: 94 minutes
+Total Cost: 104 euros
+---
+---
+Flight: OVD to AGP
+Carrier: Iberia Airlines
+Duration: 88 minutes
+Total Cost: 279 euros
+---
+---
+Flight: OVD to BCN
+Carrier: Iberia Airlines
+Duration: 97 minutes
+Total Cost: 168 euros
+---
+---
+Flight: OVD to MAD
+Carrier: Iberia Airlines
+Duration: 70 minutes
+Total Cost: 196 euros
+---
+---
+Flight: OVD to PMI
+Carrier: Iberia Airlines
+Duration: 122 minutes
+Total Cost: 326 euros
+---
+---
+Flight: OVD to SVQ
+Carrier: Iberia Airlines
+Duration: 84 minutes
+Total Cost: 210 euros
+---
+---
+Flight: OVD to VLC
+Carrier: Iberia Airlines
+Duration: 71 minutes
+Total Cost: 169 euros
+---
+---
+Flight: PMI to AGP
+Carrier: Iberia Airlines
+Duration: 117 minutes
+Total Cost: 214 euros
+---
+---
+Flight: PMI to ALC
+Carrier: Iberia Airlines
+Duration: 54 minutes
+Total Cost: 98 euros
+---
+---
+Flight: PMI to BCN
+Carrier: Iberia Airlines
+Duration: 44 minutes
+Total Cost: 98 euros
+---
+---
+Flight: PMI to BIO
+Carrier: Iberia Airlines
+Duration: 89 minutes
+Total Cost: 252 euros
+---
+---
+Flight: PMI to GRX
+Carrier: Iberia Airlines
+Duration: 80 minutes
+Total Cost: 141 euros
+---
+---
+Flight: PMI to IBZ
+Carrier: Iberia Airlines
+Duration: 44 minutes
+Total Cost: 76 euros
+---
+---
+Flight: PMI to ILD
+Carrier: Iberia Airlines
+Duration: 53 minutes
+Total Cost: 152 euros
+---
+---
+Flight: PMI to MAD
+Carrier: Iberia Airlines
+Duration: 64 minutes
+Total Cost: 226 euros
+---
+---
+Flight: PMI to MAH
+Carrier: Iberia Airlines
+Duration: 45 minutes
+Total Cost: 56 euros
+---
+---
+Flight: PMI to OVD
+Carrier: Iberia Airlines
+Duration: 108 minutes
+Total Cost: 222 euros
+---
+---
+Flight: PMI to SCQ
+Carrier: Iberia Airlines
+Duration: 122 minutes
+Total Cost: 340 euros
+---
+---
+Flight: PMI to SVQ
+Carrier: Iberia Airlines
+Duration: 104 minutes
+Total Cost: 186 euros
+---
+---
+Flight: PMI to VLC
+Carrier: Iberia Airlines
+Duration: 48 minutes
+Total Cost: 70 euros
+---
+---
+Flight: PNA to MAD
+Carrier: Iberia Airlines
+Duration: 62 minutes
+Total Cost: 96 euros
+---
+---
+Flight: RGS to BCN
+Carrier: Iberia Airlines
+Duration: 89 minutes
+Total Cost: 239 euros
+---
+---
+Flight: RJL to MAD
+Carrier: Iberia Airlines
+Duration: 46 minutes
+Total Cost: 202 euros
+---
+---
+Flight: SCQ to AGP
+Carrier: Iberia Airlines
+Duration: 100 minutes
+Total Cost: 296 euros
+---
+---
+Flight: SCQ to BCN
+Carrier: Iberia Airlines
+Duration: 112 minutes
+Total Cost: 278 euros
+---
+---
+Flight: SCQ to BIO
+Carrier: Iberia Airlines
+Duration: 77 minutes
+Total Cost: 231 euros
+---
+---
+Flight: SCQ to LPA
+Carrier: Iberia Airlines
+Duration: 221 minutes
+Total Cost: 508 euros
+---
+---
+Flight: SCQ to MAD
+Carrier: Iberia Airlines
+Duration: 72 minutes
+Total Cost: 178 euros
+---
+---
+Flight: SCQ to PMI
+Carrier: Iberia Airlines
+Duration: 111 minutes
+Total Cost: 344 euros
+---
+---
+Flight: SCQ to TFN
+Carrier: Iberia Airlines
+Duration: 232 minutes
+Total Cost: 479 euros
+---
+---
+Flight: SDR to BCN
+Carrier: Iberia Airlines
+Duration: 81 minutes
+Total Cost: 222 euros
+---
+---
+Flight: SDR to MAD
+Carrier: Iberia Airlines
+Duration: 60 minutes
+Total Cost: 86 euros
+---
+---
+Flight: SLM to BCN
+Carrier: Iberia Airlines
+Duration: 69 minutes
+Total Cost: 147 euros
+---
+---
+Flight: SPC to MAD
+Carrier: Iberia Airlines
+Duration: 246 minutes
+Total Cost: 525 euros
+---
+---
+Flight: SVQ to BCN
+Carrier: Iberia Airlines
+Duration: 90 minutes
+Total Cost: 201 euros
+---
+---
+Flight: SVQ to BIO
+Carrier: Iberia Airlines
+Duration: 83 minutes
+Total Cost: 212 euros
+---
+---
+Flight: SVQ to LCG
+Carrier: Iberia Airlines
+Duration: 113 minutes
+Total Cost: 142 euros
+---
+---
+Flight: SVQ to LPA
+Carrier: Iberia Airlines
+Duration: 118 minutes
+Total Cost: 347 euros
+---
+---
+Flight: SVQ to MAD
+Carrier: Iberia Airlines
+Duration: 60 minutes
+Total Cost: 67 euros
+---
+---
+Flight: SVQ to OVD
+Carrier: Iberia Airlines
+Duration: 112 minutes
+Total Cost: 302 euros
+---
+---
+Flight: SVQ to PMI
+Carrier: Iberia Airlines
+Duration: 87 minutes
+Total Cost: 165 euros
+---
+---
+Flight: SVQ to TFN
+Carrier: Iberia Airlines
+Duration: 164 minutes
+Total Cost: 394 euros
+---
+---
+Flight: SVQ to VLC
+Carrier: Iberia Airlines
+Duration: 79 minutes
+Total Cost: 270 euros
+---
+---
+Flight: TFN to AGP
+Carrier: Iberia Airlines
+Duration: 134 minutes
+Total Cost: 326 euros
+---
+---
+Flight: TFN to BCN
+Carrier: Iberia Airlines
+Duration: 220 minutes
+Total Cost: 492 euros
+---
+---
+Flight: TFN to BIO
+Carrier: Iberia Airlines
+Duration: 180 minutes
+Total Cost: 449 euros
+---
+---
+Flight: TFN to MAD
+Carrier: Iberia Airlines
+Duration: 143 minutes
+Total Cost: 315 euros
+---
+---
+Flight: TFN to SCQ
+Carrier: Iberia Airlines
+Duration: 160 minutes
+Total Cost: 487 euros
+---
+---
+Flight: TFN to SVQ
+Carrier: Iberia Airlines
+Duration: 191 minutes
+Total Cost: 308 euros
+---
+---
+Flight: TFN to VLC
+Carrier: Iberia Airlines
+Duration: 180 minutes
+Total Cost: 405 euros
+---
+---
+Flight: TFS to BCN
+Carrier: Iberia Airlines
+Duration: 199 minutes
+Total Cost: 590 euros
+---
+---
+Flight: TFS to MAD
+Carrier: Iberia Airlines
+Duration: 229 minutes
+Total Cost: 432 euros
+---
+---
+Flight: TFS to VGO
+Carrier: Iberia Airlines
+Duration: 171 minutes
+Total Cost: 525 euros
+---
+---
+Flight: VGO to BCN
+Carrier: Iberia Airlines
+Duration: 114 minutes
+Total Cost: 338 euros
+---
+---
+Flight: VGO to BIO
+Carrier: Iberia Airlines
+Duration: 64 minutes
+Total Cost: 249 euros
+---
+---
+Flight: VGO to MAD
+Carrier: Iberia Airlines
+Duration: 69 minutes
+Total Cost: 161 euros
+---
+---
+Flight: VGO to TFS
+Carrier: Iberia Airlines
+Duration: 155 minutes
+Total Cost: 424 euros
+---
+---
+Flight: VLC to AGP
+Carrier: Iberia Airlines
+Duration: 71 minutes
+Total Cost: 243 euros
+---
+---
+Flight: VLC to BIO
+Carrier: Iberia Airlines
+Duration: 64 minutes
+Total Cost: 111 euros
+---
+---
+Flight: VLC to IBZ
+Carrier: Iberia Airlines
+Duration: 46 minutes
+Total Cost: 167 euros
+---
+---
+Flight: VLC to LPA
+Carrier: Iberia Airlines
+Duration: 230 minutes
+Total Cost: 460 euros
+---
+---
+Flight: VLC to MAD
+Carrier: Iberia Airlines
+Duration: 47 minutes
+Total Cost: 181 euros
+---
+---
+Flight: VLC to MAH
+Carrier: Iberia Airlines
+Duration: 74 minutes
+Total Cost: 158 euros
+---
+---
+Flight: VLC to OVD
+Carrier: Iberia Airlines
+Duration: 88 minutes
+Total Cost: 261 euros
+---
+---
+Flight: VLC to PMI
+Carrier: Iberia Airlines
+Duration: 54 minutes
+Total Cost: 180 euros
+---
+---
+Flight: VLC to SVQ
+Carrier: Iberia Airlines
+Duration: 70 minutes
+Total Cost: 234 euros
+---
+---
+Flight: VLC to TFN
+Carrier: Iberia Airlines
+Duration: 199 minutes
+Total Cost: 412 euros
+---
+---
+Flight: VLL to BCN
+Carrier: Iberia Airlines
+Duration: 77 minutes
+Total Cost: 161 euros
+---
+---
+Flight: XRY to BCN
+Carrier: Iberia Airlines
+Duration: 115 minutes
+Total Cost: 231 euros
+---
+---
+Flight: XRY to MAD
+Carrier: Iberia Airlines
+Duration: 62 minutes
+Total Cost: 159 euros
+---
+---
+Flight: FUE to TFS
+Carrier: Meridiana
+Duration: 57 minutes
+Total Cost: 191 euros
+---
+---
+Flight: ACE to FUE
+Carrier: Luxair
+Duration: 34 minutes
+Total Cost: 98 euros
+---
+---
+Flight: XRY to AGP
+Carrier: Luxair
+Duration: 42 minutes
+Total Cost: 150 euros
+---
+---
+Flight: ACE to LPA
+Carrier: Binter Canarias
+Duration: 46 minutes
+Total Cost: 98 euros
+---
+---
+Flight: ACE to TFN
+Carrier: Binter Canarias
+Duration: 58 minutes
+Total Cost: 60 euros
+---
+---
+Flight: FUE to LPA
+Carrier: Binter Canarias
+Duration: 49 minutes
+Total Cost: 112 euros
+---
+---
+Flight: FUE to TFN
+Carrier: Binter Canarias
+Duration: 46 minutes
+Total Cost: 112 euros
+---
+---
+Flight: GMZ to TFN
+Carrier: Binter Canarias
+Duration: 37 minutes
+Total Cost: 142 euros
+---
+---
+Flight: LPA to ACE
+Carrier: Binter Canarias
+Duration: 46 minutes
+Total Cost: 156 euros
+---
+---
+Flight: LPA to FUE
+Carrier: Binter Canarias
+Duration: 42 minutes
+Total Cost: 82 euros
+---
+---
+Flight: LPA to SPC
+Carrier: Binter Canarias
+Duration: 58 minutes
+Total Cost: 108 euros
+---
+---
+Flight: LPA to TFN
+Carrier: Binter Canarias
+Duration: 39 minutes
+Total Cost: 82 euros
+---
+---
+Flight: LPA to TFS
+Carrier: Binter Canarias
+Duration: 44 minutes
+Total Cost: 114 euros
+---
+---
+Flight: LPA to VDE
+Carrier: Binter Canarias
+Duration: 53 minutes
+Total Cost: 203 euros
+---
+---
+Flight: SPC to LPA
+Carrier: Binter Canarias
+Duration: 54 minutes
+Total Cost: 219 euros
+---
+---
+Flight: SPC to TFN
+Carrier: Binter Canarias
+Duration: 45 minutes
+Total Cost: 145 euros
+---
+---
+Flight: TFN to ACE
+Carrier: Binter Canarias
+Duration: 54 minutes
+Total Cost: 179 euros
+---
+---
+Flight: TFN to FUE
+Carrier: Binter Canarias
+Duration: 46 minutes
+Total Cost: 150 euros
+---
+---
+Flight: TFN to GMZ
+Carrier: Binter Canarias
+Duration: 37 minutes
+Total Cost: 93 euros
+---
+---
+Flight: TFN to LPA
+Carrier: Binter Canarias
+Duration: 39 minutes
+Total Cost: 39 euros
+---
+---
+Flight: TFN to SPC
+Carrier: Binter Canarias
+Duration: 39 minutes
+Total Cost: 213 euros
+---
+---
+Flight: TFN to VDE
+Carrier: Binter Canarias
+Duration: 46 minutes
+Total Cost: 144 euros
+---
+---
+Flight: TFS to LPA
+Carrier: Binter Canarias
+Duration: 38 minutes
+Total Cost: 96 euros
+---
+---
+Flight: TFS to VDE
+Carrier: Binter Canarias
+Duration: 45 minutes
+Total Cost: 118 euros
+---
+---
+Flight: VDE to LPA
+Carrier: Binter Canarias
+Duration: 50 minutes
+Total Cost: 214 euros
+---
+---
+Flight: VDE to TFN
+Carrier: Binter Canarias
+Duration: 44 minutes
+Total Cost: 67 euros
+---
+---
+Flight: VDE to TFS
+Carrier: Binter Canarias
+Duration: 43 minutes
+Total Cost: 203 euros
+---
+---
+Flight: BCN to PMI
+Carrier: Czech Airlines
+Duration: 42 minutes
+Total Cost: 55 euros
+---
+---
+Flight: LPA to MAD
+Carrier: Czech Airlines
+Duration: 249 minutes
+Total Cost: 367 euros
+---
+---
+Flight: MAD to LPA
+Carrier: Czech Airlines
+Duration: 178 minutes
+Total Cost: 445 euros
+---
+---
+Flight: MAD to TFN
+Carrier: Czech Airlines
+Duration: 183 minutes
+Total Cost: 376 euros
+---
+---
+Flight: PMI to BCN
+Carrier: Czech Airlines
+Duration: 47 minutes
+Total Cost: 177 euros
+---
+---
+Flight: TFN to MAD
+Carrier: Czech Airlines
+Duration: 174 minutes
+Total Cost: 290 euros
+---
+---
+Flight: ACE to LPA
+Carrier: Tropic Air
+Duration: 48 minutes
+Total Cost: 72 euros
+---
+---
+Flight: FUE to LPA
+Carrier: Tropic Air
+Duration: 40 minutes
+Total Cost: 94 euros
+---
+---
+Flight: LPA to ACE
+Carrier: Tropic Air
+Duration: 44 minutes
+Total Cost: 182 euros
+---
+---
+Flight: LPA to FUE
+Carrier: Tropic Air
+Duration: 44 minutes
+Total Cost: 103 euros
+---
+---
+Flight: LPA to TFN
+Carrier: Tropic Air
+Duration: 38 minutes
+Total Cost: 47 euros
+---
+---
+Flight: SPC to TFN
+Carrier: Tropic Air
+Duration: 39 minutes
+Total Cost: 57 euros
+---
+---
+Flight: TFN to LPA
+Carrier: Tropic Air
+Duration: 40 minutes
+Total Cost: 165 euros
+---
+---
+Flight: TFN to SPC
+Carrier: Tropic Air
+Duration: 45 minutes
+Total Cost: 72 euros
+---
+---
+Flight: BIO to SCQ
+Carrier: Turkish Airlines
+Duration: 78 minutes
+Total Cost: 145 euros
+---
+---
+Flight: SCQ to BIO
+Carrier: Turkish Airlines
+Duration: 73 minutes
+Total Cost: 160 euros
+---
+---
+Flight: ACE to BIO
+Carrier: Air Europa
+Duration: 167 minutes
+Total Cost: 500 euros
+---
+---
+Flight: ACE to MAD
+Carrier: Air Europa
+Duration: 149 minutes
+Total Cost: 346 euros
+---
+---
+Flight: ACE to OVD
+Carrier: Air Europa
+Duration: 175 minutes
+Total Cost: 254 euros
+---
+---
+Flight: ACE to SCQ
+Carrier: Air Europa
+Duration: 156 minutes
+Total Cost: 468 euros
+---
+---
+Flight: AGP to IBZ
+Carrier: Air Europa
+Duration: 88 minutes
+Total Cost: 218 euros
+---
+---
+Flight: AGP to MAD
+Carrier: Air Europa
+Duration: 57 minutes
+Total Cost: 261 euros
+---
+---
+Flight: AGP to PMI
+Carrier: Air Europa
+Duration: 76 minutes
+Total Cost: 167 euros
+---
+---
+Flight: AGP to TFN
+Carrier: Air Europa
+Duration: 189 minutes
+Total Cost: 299 euros
+---
+---
+Flight: ALC to TFS
+Carrier: Air Europa
+Duration: 197 minutes
+Total Cost: 520 euros
+---
+---
+Flight: BCN to BJZ
+Carrier: Air Europa
+Duration: 84 minutes
+Total Cost: 214 euros
+---
+---
+Flight: BCN to MAD
+Carrier: Air Europa
+Duration: 71 minutes
+Total Cost: 149 euros
+---
+---
+Flight: BCN to PMI
+Carrier: Air Europa
+Duration: 43 minutes
+Total Cost: 104 euros
+---
+---
+Flight: BCN to TFN
+Carrier: Air Europa
+Duration: 274 minutes
+Total Cost: 637 euros
+---
+---
+Flight: BIO to ACE
+Carrier: Air Europa
+Duration: 154 minutes
+Total Cost: 438 euros
+---
+---
+Flight: BIO to IBZ
+Carrier: Air Europa
+Duration: 96 minutes
+Total Cost: 226 euros
+---
+---
+Flight: BIO to LPA
+Carrier: Air Europa
+Duration: 182 minutes
+Total Cost: 595 euros
+---
+---
+Flight: BIO to MAD
+Carrier: Air Europa
+Duration: 49 minutes
+Total Cost: 147 euros
+---
+---
+Flight: BIO to PMI
+Carrier: Air Europa
+Duration: 86 minutes
+Total Cost: 144 euros
+---
+---
+Flight: BIO to TFN
+Carrier: Air Europa
+Duration: 162 minutes
+Total Cost: 348 euros
+---
+---
+Flight: BJZ to BCN
+Carrier: Air Europa
+Duration: 88 minutes
+Total Cost: 263 euros
+---
+---
+Flight: BJZ to MAD
+Carrier: Air Europa
+Duration: 51 minutes
+Total Cost: 191 euros
+---
+---
+Flight: FUE to MAD
+Carrier: Air Europa
+Duration: 176 minutes
+Total Cost: 333 euros
+---
+---
+Flight: GRX to PMI
+Carrier: Air Europa
+Duration: 97 minutes
+Total Cost: 289 euros
+---
+---
+Flight: IBZ to MAD
+Carrier: Air Europa
+Duration: 65 minutes
+Total Cost: 143 euros
+---
+---
+Flight: LCG to MAD
+Carrier: Air Europa
+Duration: 73 minutes
+Total Cost: 174 euros
+---
+---
+Flight: LEI to MAD
+Carrier: Air Europa
+Duration: 62 minutes
+Total Cost: 189 euros
+---
+---
+Flight: LEI to SVQ
+Carrier: Air Europa
+Duration: 51 minutes
+Total Cost: 217 euros
+---
+---
+Flight: LPA to BIO
+Carrier: Air Europa
+Duration: 169 minutes
+Total Cost: 427 euros
+---
+---
+Flight: LPA to MAD
+Carrier: Air Europa
+Duration: 249 minutes
+Total Cost: 419 euros
+---
+---
+Flight: LPA to SCQ
+Carrier: Air Europa
+Duration: 184 minutes
+Total Cost: 359 euros
+---
+---
+Flight: LPA to SVQ
+Carrier: Air Europa
+Duration: 157 minutes
+Total Cost: 312 euros
+---
+---
+Flight: MAD to ACE
+Carrier: Air Europa
+Duration: 164 minutes
+Total Cost: 409 euros
+---
+---
+Flight: MAD to AGP
+Carrier: Air Europa
+Duration: 70 minutes
+Total Cost: 183 euros
+---
+---
+Flight: MAD to BCN
+Carrier: Air Europa
+Duration: 83 minutes
+Total Cost: 111 euros
+---
+---
+Flight: MAD to BIO
+Carrier: Air Europa
+Duration: 63 minutes
+Total Cost: 171 euros
+---
+---
+Flight: MAD to BJZ
+Carrier: Air Europa
+Duration: 66 minutes
+Total Cost: 127 euros
+---
+---
+Flight: MAD to FUE
+Carrier: Air Europa
+Duration: 173 minutes
+Total Cost: 462 euros
+---
+---
+Flight: MAD to IBZ
+Carrier: Air Europa
+Duration: 62 minutes
+Total Cost: 121 euros
+---
+---
+Flight: MAD to LCG
+Carrier: Air Europa
+Duration: 73 minutes
+Total Cost: 150 euros
+---
+---
+Flight: MAD to LEI
+Carrier: Air Europa
+Duration: 81 minutes
+Total Cost: 163 euros
+---
+---
+Flight: MAD to LPA
+Carrier: Air Europa
+Duration: 212 minutes
+Total Cost: 486 euros
+---
+---
+Flight: MAD to OVD
+Carrier: Air Europa
+Duration: 78 minutes
+Total Cost: 201 euros
+---
+---
+Flight: MAD to PMI
+Carrier: Air Europa
+Duration: 71 minutes
+Total Cost: 133 euros
+---
+---
+Flight: MAD to TFN
+Carrier: Air Europa
+Duration: 220 minutes
+Total Cost: 404 euros
+---
+---
+Flight: MAD to VGO
+Carrier: Air Europa
+Duration: 66 minutes
+Total Cost: 191 euros
+---
+---
+Flight: MAD to VLC
+Carrier: Air Europa
+Duration: 47 minutes
+Total Cost: 220 euros
+---
+---
+Flight: OVD to ACE
+Carrier: Air Europa
+Duration: 171 minutes
+Total Cost: 386 euros
+---
+---
+Flight: OVD to MAD
+Carrier: Air Europa
+Duration: 69 minutes
+Total Cost: 242 euros
+---
+---
+Flight: OVD to TFS
+Carrier: Air Europa
+Duration: 167 minutes
+Total Cost: 486 euros
+---
+---
+Flight: PMI to BCN
+Carrier: Air Europa
+Duration: 48 minutes
+Total Cost: 201 euros
+---
+---
+Flight: PMI to BIO
+Carrier: Air Europa
+Duration: 71 minutes
+Total Cost: 216 euros
+---
+---
+Flight: PMI to GRX
+Carrier: Air Europa
+Duration: 105 minutes
+Total Cost: 265 euros
+---
+---
+Flight: PMI to MAD
+Carrier: Air Europa
+Duration: 74 minutes
+Total Cost: 206 euros
+---
+---
+Flight: PMI to VLC
+Carrier: Air Europa
+Duration: 62 minutes
+Total Cost: 99 euros
+---
+---
+Flight: PMI to ZAZ
+Carrier: Air Europa
+Duration: 77 minutes
+Total Cost: 198 euros
+---
+---
+Flight: SCQ to ACE
+Carrier: Air Europa
+Duration: 154 minutes
+Total Cost: 274 euros
+---
+---
+Flight: SCQ to IBZ
+Carrier: Air Europa
+Duration: 130 minutes
+Total Cost: 217 euros
+---
+---
+Flight: SCQ to LPA
+Carrier: Air Europa
+Duration: 165 minutes
+Total Cost: 380 euros
+---
+---
+Flight: SCQ to PMI
+Carrier: Air Europa
+Duration: 111 minutes
+Total Cost: 222 euros
+---
+---
+Flight: SCQ to TFS
+Carrier: Air Europa
+Duration: 229 minutes
+Total Cost: 420 euros
+---
+---
+Flight: SVQ to LEI
+Carrier: Air Europa
+Duration: 51 minutes
+Total Cost: 182 euros
+---
+---
+Flight: SVQ to LPA
+Carrier: Air Europa
+Duration: 180 minutes
+Total Cost: 460 euros
+---
+---
+Flight: SVQ to PMI
+Carrier: Air Europa
+Duration: 101 minutes
+Total Cost: 204 euros
+---
+---
+Flight: SVQ to TFN
+Carrier: Air Europa
+Duration: 133 minutes
+Total Cost: 276 euros
+---
+---
+Flight: TFN to AGP
+Carrier: Air Europa
+Duration: 131 minutes
+Total Cost: 320 euros
+---
+---
+Flight: TFN to BCN
+Carrier: Air Europa
+Duration: 178 minutes
+Total Cost: 680 euros
+---
+---
+Flight: TFN to BIO
+Carrier: Air Europa
+Duration: 183 minutes
+Total Cost: 442 euros
+---
+---
+Flight: TFN to MAD
+Carrier: Air Europa
+Duration: 150 minutes
+Total Cost: 509 euros
+---
+---
+Flight: TFN to SVQ
+Carrier: Air Europa
+Duration: 144 minutes
+Total Cost: 328 euros
+---
+---
+Flight: TFS to ALC
+Carrier: Air Europa
+Duration: 190 minutes
+Total Cost: 374 euros
+---
+---
+Flight: TFS to OVD
+Carrier: Air Europa
+Duration: 161 minutes
+Total Cost: 389 euros
+---
+---
+Flight: TFS to SCQ
+Carrier: Air Europa
+Duration: 189 minutes
+Total Cost: 394 euros
+---
+---
+Flight: VGO to MAD
+Carrier: Air Europa
+Duration: 62 minutes
+Total Cost: 118 euros
+---
+---
+Flight: VLC to MAD
+Carrier: Air Europa
+Duration: 52 minutes
+Total Cost: 110 euros
+---
+---
+Flight: VLC to PMI
+Carrier: Air Europa
+Duration: 49 minutes
+Total Cost: 88 euros
+---
+---
+Flight: VLL to PMI
+Carrier: Air Europa
+Duration: 74 minutes
+Total Cost: 210 euros
+---
+---
+Flight: ZAZ to PMI
+Carrier: Air Europa
+Duration: 60 minutes
+Total Cost: 123 euros
+---
+---
+Flight: OVD to PMI
+Carrier: Air Senegal International
+Duration: 123 minutes
+Total Cost: 143 euros
+---
+---
+Flight: OVD to VLC
+Carrier: Air Senegal International
+Duration: 71 minutes
+Total Cost: 262 euros
+---
+---
+Flight: PMI to OVD
+Carrier: Air Senegal International
+Duration: 84 minutes
+Total Cost: 235 euros
+---
+---
+Flight: VLC to OVD
+Carrier: Air Senegal International
+Duration: 72 minutes
+Total Cost: 282 euros
+---
+---
+Flight: ACE to BCN
+Carrier: Formosa Airlines
+Duration: 219 minutes
+Total Cost: 456 euros
+---
+---
+Flight: ACE to BIO
+Carrier: Formosa Airlines
+Duration: 164 minutes
+Total Cost: 580 euros
+---
+---
+Flight: AGP to BCN
+Carrier: Formosa Airlines
+Duration: 79 minutes
+Total Cost: 214 euros
+---
+---
+Flight: AGP to BIO
+Carrier: Formosa Airlines
+Duration: 83 minutes
+Total Cost: 128 euros
+---
+---
+Flight: AGP to LPA
+Carrier: Formosa Airlines
+Duration: 132 minutes
+Total Cost: 395 euros
+---
+---
+Flight: AGP to OVD
+Carrier: Formosa Airlines
+Duration: 97 minutes
+Total Cost: 247 euros
+---
+---
+Flight: AGP to PMI
+Carrier: Formosa Airlines
+Duration: 94 minutes
+Total Cost: 313 euros
+---
+---
+Flight: AGP to SCQ
+Carrier: Formosa Airlines
+Duration: 105 minutes
+Total Cost: 289 euros
+---
+---
+Flight: AGP to TFN
+Carrier: Formosa Airlines
+Duration: 130 minutes
+Total Cost: 450 euros
+---
+---
+Flight: ALC to BCN
+Carrier: Formosa Airlines
+Duration: 67 minutes
+Total Cost: 193 euros
+---
+---
+Flight: ALC to BIO
+Carrier: Formosa Airlines
+Duration: 91 minutes
+Total Cost: 126 euros
+---
+---
+Flight: ALC to IBZ
+Carrier: Formosa Airlines
+Duration: 48 minutes
+Total Cost: 96 euros
+---
+---
+Flight: ALC to PMI
+Carrier: Formosa Airlines
+Duration: 50 minutes
+Total Cost: 222 euros
+---
+---
+Flight: BCN to ACE
+Carrier: Formosa Airlines
+Duration: 209 minutes
+Total Cost: 482 euros
+---
+---
+Flight: BCN to AGP
+Carrier: Formosa Airlines
+Duration: 124 minutes
+Total Cost: 230 euros
+---
+---
+Flight: BCN to ALC
+Carrier: Formosa Airlines
+Duration: 66 minutes
+Total Cost: 179 euros
+---
+---
+Flight: BCN to BIO
+Carrier: Formosa Airlines
+Duration: 59 minutes
+Total Cost: 262 euros
+---
+---
+Flight: BCN to EAS
+Carrier: Formosa Airlines
+Duration: 55 minutes
+Total Cost: 91 euros
+---
+---
+Flight: BCN to FUE
+Carrier: Formosa Airlines
+Duration: 247 minutes
+Total Cost: 579 euros
+---
+---
+Flight: BCN to GRX
+Carrier: Formosa Airlines
+Duration: 102 minutes
+Total Cost: 209 euros
+---
+---
+Flight: BCN to IBZ
+Carrier: Formosa Airlines
+Duration: 49 minutes
+Total Cost: 169 euros
+---
+---
+Flight: BCN to LCG
+Carrier: Formosa Airlines
+Duration: 110 minutes
+Total Cost: 187 euros
+---
+---
+Flight: BCN to LEI
+Carrier: Formosa Airlines
+Duration: 78 minutes
+Total Cost: 227 euros
+---
+---
+Flight: BCN to LPA
+Carrier: Formosa Airlines
+Duration: 278 minutes
+Total Cost: 484 euros
+---
+---
+Flight: BCN to MAD
+Carrier: Formosa Airlines
+Duration: 70 minutes
+Total Cost: 236 euros
+---
+---
+Flight: BCN to MAH
+Carrier: Formosa Airlines
+Duration: 48 minutes
+Total Cost: 144 euros
+---
+---
+Flight: BCN to OVD
+Carrier: Formosa Airlines
+Duration: 96 minutes
+Total Cost: 259 euros
+---
+---
+Flight: BCN to PMI
+Carrier: Formosa Airlines
+Duration: 45 minutes
+Total Cost: 50 euros
+---
+---
+Flight: BCN to SCQ
+Carrier: Formosa Airlines
+Duration: 99 minutes
+Total Cost: 298 euros
+---
+---
+Flight: BCN to SDR
+Carrier: Formosa Airlines
+Duration: 93 minutes
+Total Cost: 129 euros
+---
+---
+Flight: BCN to SVQ
+Carrier: Formosa Airlines
+Duration: 87 minutes
+Total Cost: 204 euros
+---
+---
+Flight: BCN to TFN
+Carrier: Formosa Airlines
+Duration: 180 minutes
+Total Cost: 515 euros
+---
+---
+Flight: BCN to TFS
+Carrier: Formosa Airlines
+Duration: 244 minutes
+Total Cost: 417 euros
+---
+---
+Flight: BCN to VGO
+Carrier: Formosa Airlines
+Duration: 111 minutes
+Total Cost: 213 euros
+---
+---
+Flight: BCN to VLL
+Carrier: Formosa Airlines
+Duration: 87 minutes
+Total Cost: 196 euros
+---
+---
+Flight: BCN to XRY
+Carrier: Formosa Airlines
+Duration: 105 minutes
+Total Cost: 156 euros
+---
+---
+Flight: BIO to ACE
+Carrier: Formosa Airlines
+Duration: 179 minutes
+Total Cost: 427 euros
+---
+---
+Flight: BIO to AGP
+Carrier: Formosa Airlines
+Duration: 84 minutes
+Total Cost: 185 euros
+---
+---
+Flight: BIO to ALC
+Carrier: Formosa Airlines
+Duration: 81 minutes
+Total Cost: 201 euros
+---
+---
+Flight: BIO to BCN
+Carrier: Formosa Airlines
+Duration: 75 minutes
+Total Cost: 148 euros
+---
+---
+Flight: BIO to FUE
+Carrier: Formosa Airlines
+Duration: 212 minutes
+Total Cost: 431 euros
+---
+---
+Flight: BIO to IBZ
+Carrier: Formosa Airlines
+Duration: 74 minutes
+Total Cost: 281 euros
+---
+---
+Flight: BIO to LCG
+Carrier: Formosa Airlines
+Duration: 75 minutes
+Total Cost: 147 euros
+---
+---
+Flight: BIO to LPA
+Carrier: Formosa Airlines
+Duration: 176 minutes
+Total Cost: 512 euros
+---
+---
+Flight: BIO to PMI
+Carrier: Formosa Airlines
+Duration: 86 minutes
+Total Cost: 278 euros
+---
+---
+Flight: BIO to SVQ
+Carrier: Formosa Airlines
+Duration: 80 minutes
+Total Cost: 114 euros
+---
+---
+Flight: BIO to TFN
+Carrier: Formosa Airlines
+Duration: 176 minutes
+Total Cost: 532 euros
+---
+---
+Flight: EAS to BCN
+Carrier: Formosa Airlines
+Duration: 58 minutes
+Total Cost: 243 euros
+---
+---
+Flight: FUE to BCN
+Carrier: Formosa Airlines
+Duration: 212 minutes
+Total Cost: 420 euros
+---
+---
+Flight: FUE to BIO
+Carrier: Formosa Airlines
+Duration: 193 minutes
+Total Cost: 428 euros
+---
+---
+Flight: GRX to BCN
+Carrier: Formosa Airlines
+Duration: 84 minutes
+Total Cost: 153 euros
+---
+---
+Flight: GRX to PMI
+Carrier: Formosa Airlines
+Duration: 80 minutes
+Total Cost: 270 euros
+---
+---
+Flight: IBZ to ALC
+Carrier: Formosa Airlines
+Duration: 46 minutes
+Total Cost: 191 euros
+---
+---
+Flight: IBZ to BCN
+Carrier: Formosa Airlines
+Duration: 50 minutes
+Total Cost: 141 euros
+---
+---
+Flight: IBZ to BIO
+Carrier: Formosa Airlines
+Duration: 102 minutes
+Total Cost: 174 euros
+---
+---
+Flight: IBZ to MAD
+Carrier: Formosa Airlines
+Duration: 74 minutes
+Total Cost: 180 euros
+---
+---
+Flight: IBZ to VLC
+Carrier: Formosa Airlines
+Duration: 41 minutes
+Total Cost: 151 euros
+---
+---
+Flight: LCG to BCN
+Carrier: Formosa Airlines
+Duration: 97 minutes
+Total Cost: 235 euros
+---
+---
+Flight: LCG to BIO
+Carrier: Formosa Airlines
+Duration: 72 minutes
+Total Cost: 172 euros
+---
+---
+Flight: LCG to SVQ
+Carrier: Formosa Airlines
+Duration: 89 minutes
+Total Cost: 214 euros
+---
+---
+Flight: LEI to BCN
+Carrier: Formosa Airlines
+Duration: 106 minutes
+Total Cost: 141 euros
+---
+---
+Flight: LPA to AGP
+Carrier: Formosa Airlines
+Duration: 134 minutes
+Total Cost: 334 euros
+---
+---
+Flight: LPA to BCN
+Carrier: Formosa Airlines
+Duration: 233 minutes
+Total Cost: 397 euros
+---
+---
+Flight: LPA to BIO
+Carrier: Formosa Airlines
+Duration: 197 minutes
+Total Cost: 323 euros
+---
+---
+Flight: LPA to SVQ
+Carrier: Formosa Airlines
+Duration: 125 minutes
+Total Cost: 375 euros
+---
+---
+Flight: MAD to BCN
+Carrier: Formosa Airlines
+Duration: 74 minutes
+Total Cost: 117 euros
+---
+---
+Flight: MAD to IBZ
+Carrier: Formosa Airlines
+Duration: 60 minutes
+Total Cost: 208 euros
+---
+---
+Flight: MAH to BCN
+Carrier: Formosa Airlines
+Duration: 46 minutes
+Total Cost: 165 euros
+---
+---
+Flight: OVD to AGP
+Carrier: Formosa Airlines
+Duration: 87 minutes
+Total Cost: 284 euros
+---
+---
+Flight: OVD to BCN
+Carrier: Formosa Airlines
+Duration: 75 minutes
+Total Cost: 152 euros
+---
+---
+Flight: OVD to SVQ
+Carrier: Formosa Airlines
+Duration: 88 minutes
+Total Cost: 242 euros
+---
+---
+Flight: PMI to AGP
+Carrier: Formosa Airlines
+Duration: 78 minutes
+Total Cost: 177 euros
+---
+---
+Flight: PMI to ALC
+Carrier: Formosa Airlines
+Duration: 51 minutes
+Total Cost: 102 euros
+---
+---
+Flight: PMI to BCN
+Carrier: Formosa Airlines
+Duration: 44 minutes
+Total Cost: 73 euros
+---
+---
+Flight: PMI to BIO
+Carrier: Formosa Airlines
+Duration: 85 minutes
+Total Cost: 178 euros
+---
+---
+Flight: PMI to GRX
+Carrier: Formosa Airlines
+Duration: 96 minutes
+Total Cost: 245 euros
+---
+---
+Flight: PMI to SVQ
+Carrier: Formosa Airlines
+Duration: 88 minutes
+Total Cost: 200 euros
+---
+---
+Flight: SCQ to AGP
+Carrier: Formosa Airlines
+Duration: 93 minutes
+Total Cost: 246 euros
+---
+---
+Flight: SCQ to BCN
+Carrier: Formosa Airlines
+Duration: 103 minutes
+Total Cost: 154 euros
+---
+---
+Flight: SDR to BCN
+Carrier: Formosa Airlines
+Duration: 79 minutes
+Total Cost: 147 euros
+---
+---
+Flight: SVQ to BCN
+Carrier: Formosa Airlines
+Duration: 99 minutes
+Total Cost: 304 euros
+---
+---
+Flight: SVQ to BIO
+Carrier: Formosa Airlines
+Duration: 103 minutes
+Total Cost: 196 euros
+---
+---
+Flight: SVQ to LCG
+Carrier: Formosa Airlines
+Duration: 92 minutes
+Total Cost: 279 euros
+---
+---
+Flight: SVQ to LPA
+Carrier: Formosa Airlines
+Duration: 142 minutes
+Total Cost: 230 euros
+---
+---
+Flight: SVQ to OVD
+Carrier: Formosa Airlines
+Duration: 102 minutes
+Total Cost: 196 euros
+---
+---
+Flight: SVQ to PMI
+Carrier: Formosa Airlines
+Duration: 86 minutes
+Total Cost: 317 euros
+---
+---
+Flight: SVQ to TFN
+Carrier: Formosa Airlines
+Duration: 129 minutes
+Total Cost: 268 euros
+---
+---
+Flight: TFN to AGP
+Carrier: Formosa Airlines
+Duration: 171 minutes
+Total Cost: 421 euros
+---
+---
+Flight: TFN to BCN
+Carrier: Formosa Airlines
+Duration: 214 minutes
+Total Cost: 489 euros
+---
+---
+Flight: TFN to BIO
+Carrier: Formosa Airlines
+Duration: 157 minutes
+Total Cost: 367 euros
+---
+---
+Flight: TFN to SVQ
+Carrier: Formosa Airlines
+Duration: 163 minutes
+Total Cost: 299 euros
+---
+---
+Flight: TFS to BCN
+Carrier: Formosa Airlines
+Duration: 280 minutes
+Total Cost: 398 euros
+---
+---
+Flight: VGO to BCN
+Carrier: Formosa Airlines
+Duration: 104 minutes
+Total Cost: 232 euros
+---
+---
+Flight: VLC to IBZ
+Carrier: Formosa Airlines
+Duration: 41 minutes
+Total Cost: 82 euros
+---
+---
+Flight: VLL to BCN
+Carrier: Formosa Airlines
+Duration: 87 minutes
+Total Cost: 170 euros
+---
+---
+Flight: XRY to BCN
+Carrier: Formosa Airlines
+Duration: 84 minutes
+Total Cost: 269 euros
+---
+---
+Flight: AGP to MLN
+Carrier: Maastricht Airlines
+Duration: 47 minutes
+Total Cost: 86 euros
+---
+---
+Flight: MLN to AGP
+Carrier: Maastricht Airlines
+Duration: 43 minutes
+Total Cost: 172 euros
+---

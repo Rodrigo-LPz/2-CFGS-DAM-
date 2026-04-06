@@ -1,0 +1,2192 @@
+{
+	"info": {
+		"_postman_id": "7a918d2d-8425-4ecf-a480-3f2cf8469065",
+		"name": "API - Gestor de Tareas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50349385",
+		"_collection_link": "https://rodrigo-lop-per-4854085.postman.co/workspace/Rodrigo-L%C3%B3pez's-Workspace~144a2d63-61f3-421e-8b19-02f574beafc8/collection/50349385-7a918d2d-8425-4ecf-a480-3f2cf8469065?action=share&source=collection_link&creator=50349385"
+	},
+	"item": [
+		{
+			"name": "CRUD Básico",
+			"item": [
+				{
+					"name": "Crear tarea",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"pm.test(\"Status code is 200\", function () {",
+									"    pm.response.to.have.status(200);",
+									"});"
+								],
+								"type": "text/javascript",
+								"packages": {},
+								"requests": {}
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"title\": \"Limpieza de Código (Refactoring)\",\r\n\"description\": \"Renombrar variables y extraer métodos largos para mejorar la legibilidad.\",\r\n\"priority\": \"MEDIA\",\r\n\"category\": \"Desarrollo\",\r\n\"completed\": false,\r\n\"tags\": [\"limpieza\", \"java\"]\r\n}\r\n",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/tasks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"tasks"
+							]
+						},
+						"description": "This is a GET request and it is used to \"get\" data from an endpoint. There is no request body for a GET request, but you can use query parameters to help specify the resource you want data on (e.g., in this request, we have `id=1`).\n\nA successful GET response will have a `200 OK` status, and should include some kind of response body - for example, HTML web content or JSON data."
+					},
+					"response": [
+						{
+							"name": "Tarea Ejemplo",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "    {\r\n        \"title\": \"Comprar víveres\",\r\n        \"description\": \"Ir al supermercado y comprar frutas, verduras y lácteos\",\r\n        \"completed\": false,\r\n        \"priority\": \"MEDIA\",\r\n        \"tags\": [\"casa\", \"urgente\"],\r\n        \"category\": \"Personal\",\r\n        \"dueDate\": \"2025-12-25T18:00:00\"\r\n    }",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/tasks",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Dec 2025 23:11:39 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"69472d2a6efc3554ac021a4c\",\n    \"title\": \"Comprar víveres\",\n    \"description\": \"Ir al supermercado y comprar frutas, verduras y lácteos\",\n    \"completed\": false,\n    \"priority\": \"MEDIA\",\n    \"tags\": [\n        \"casa\",\n        \"urgente\"\n    ],\n    \"category\": \"Personal\",\n    \"createdAt\": \"2025-12-20T23:11:38.8460286\",\n    \"updatedAt\": \"2025-12-20T23:11:38.8460286\",\n    \"dueDate\": \"2025-12-25T18:00:00\"\n}"
+						},
+						{
+							"name": "Tarea 2",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"title\": \"Configuración de Seguridad JWT\",\r\n\"description\": \"Implementar el filtro de autenticación para proteger los endpoints.\",\r\n\"priority\": \"ALTA\",\r\n\"category\": \"Desarrollo\",\r\n\"completed\": false,\r\n\"tags\": [\"seguridad\", \"backend\", \"importante\"]\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/tasks",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Dec 2025 23:38:17 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"694733696efc3554ac021a4d\",\n    \"title\": \"Configuración de Seguridad JWT\",\n    \"description\": \"Implementar el filtro de autenticación para proteger los endpoints.\",\n    \"completed\": false,\n    \"priority\": \"ALTA\",\n    \"tags\": [\n        \"seguridad\",\n        \"backend\",\n        \"importante\"\n    ],\n    \"category\": \"Desarrollo\",\n    \"createdAt\": \"2025-12-20T23:38:17.3002739\",\n    \"updatedAt\": \"2025-12-20T23:38:17.3002739\",\n    \"dueDate\": null\n}"
+						},
+						{
+							"name": "Tarea 3",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"title\": \"Diseño de Interfaz de Usuario\",\r\n\"description\": \"Crear los prototipos en Figma para la pantalla de inicio.\",\r\n\"priority\": \"MEDIA\",\r\n\"category\": \"Diseño\",\r\n\"completed\": false,\r\n\"tags\": [\"frontend\", \"ux\", \"ui\"]\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/tasks",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Dec 2025 23:39:10 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"6947339e6efc3554ac021a4e\",\n    \"title\": \"Diseño de Interfaz de Usuario\",\n    \"description\": \"Crear los prototipos en Figma para la pantalla de inicio.\",\n    \"completed\": false,\n    \"priority\": \"MEDIA\",\n    \"tags\": [\n        \"frontend\",\n        \"ux\",\n        \"ui\"\n    ],\n    \"category\": \"Diseño\",\n    \"createdAt\": \"2025-12-20T23:39:10.403047\",\n    \"updatedAt\": \"2025-12-20T23:39:10.403047\",\n    \"dueDate\": null\n}"
+						},
+						{
+							"name": "Tarea 4",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"title\": \"Optimización de Consultas MongoDB\",\r\n\"description\": \"Revisar los índices de la colección de tareas para mejorar la velocidad.\",\r\n\"priority\": \"ALTA\",\r\n\"category\": \"Base de Datos\",\r\n\"completed\": false,\r\n\"tags\": [\"rendimiento\", \"mongo\"]\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/tasks",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Dec 2025 23:39:36 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"694733b86efc3554ac021a4f\",\n    \"title\": \"Optimización de Consultas MongoDB\",\n    \"description\": \"Revisar los índices de la colección de tareas para mejorar la velocidad.\",\n    \"completed\": false,\n    \"priority\": \"ALTA\",\n    \"tags\": [\n        \"rendimiento\",\n        \"mongo\"\n    ],\n    \"category\": \"Base de Datos\",\n    \"createdAt\": \"2025-12-20T23:39:36.5601274\",\n    \"updatedAt\": \"2025-12-20T23:39:36.5601274\",\n    \"dueDate\": null\n}"
+						},
+						{
+							"name": "Tarea 5",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"title\": \"Redacción de Documentación Técnica\",\r\n\"description\": \"Escribir el manual de uso de los endpoints en el README.\",\r\n\"priority\": \"BAJA\",\r\n\"category\": \"Documentación\",\r\n\"completed\": true,\r\n\"tags\": [\"wiki\", \"ayuda\"]\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/tasks",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Dec 2025 23:39:55 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"694733cb6efc3554ac021a50\",\n    \"title\": \"Redacción de Documentación Técnica\",\n    \"description\": \"Escribir el manual de uso de los endpoints en el README.\",\n    \"completed\": true,\n    \"priority\": \"BAJA\",\n    \"tags\": [\n        \"wiki\",\n        \"ayuda\"\n    ],\n    \"category\": \"Documentación\",\n    \"createdAt\": \"2025-12-20T23:39:55.538987\",\n    \"updatedAt\": \"2025-12-20T23:39:55.538987\",\n    \"dueDate\": null\n}"
+						},
+						{
+							"name": "Tarea 6",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"title\": \"Pruebas de Integración\",\r\n\"description\": \"Verificar que el flujo de creación y borrado de tareas funciona correctamente.\",\r\n\"priority\": \"MEDIA\",\r\n\"category\": \"QA\",\r\n\"completed\": false,\r\n\"tags\": [\"testing\", \"junit\"]\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/tasks",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Dec 2025 23:40:24 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"694733e86efc3554ac021a51\",\n    \"title\": \"Pruebas de Integración\",\n    \"description\": \"Verificar que el flujo de creación y borrado de tareas funciona correctamente.\",\n    \"completed\": false,\n    \"priority\": \"MEDIA\",\n    \"tags\": [\n        \"testing\",\n        \"junit\"\n    ],\n    \"category\": \"QA\",\n    \"createdAt\": \"2025-12-20T23:40:24.3381944\",\n    \"updatedAt\": \"2025-12-20T23:40:24.3381944\",\n    \"dueDate\": null\n}"
+						},
+						{
+							"name": "Tarea 7",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"title\": \"Corrección de Bug en Filtros\",\r\n\"description\": \"Reparar el error que impide filtrar tareas por la etiqueta 'urgente'.\",\r\n\"priority\": \"ALTA\",\r\n\"category\": \"Mantenimiento\",\r\n\"completed\": false,\r\n\"tags\": [\"bug\", \"urgente\"]\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/tasks",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Dec 2025 23:40:43 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"694733fb6efc3554ac021a52\",\n    \"title\": \"Corrección de Bug en Filtros\",\n    \"description\": \"Reparar el error que impide filtrar tareas por la etiqueta 'urgente'.\",\n    \"completed\": false,\n    \"priority\": \"ALTA\",\n    \"tags\": [\n        \"bug\",\n        \"urgente\"\n    ],\n    \"category\": \"Mantenimiento\",\n    \"createdAt\": \"2025-12-20T23:40:43.2286347\",\n    \"updatedAt\": \"2025-12-20T23:40:43.2286347\",\n    \"dueDate\": null\n}"
+						},
+						{
+							"name": "Tarea 8",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"title\": \"Reunión de Seguimiento Semanal\",\r\n\"description\": \"Sincronizar el progreso del sprint con el resto de compañeros.\",\r\n\"priority\": \"MEDIA\",\r\n\"category\": \"Gestión\",\r\n\"completed\": true,\r\n\"tags\": [\"reunion\", \"equipo\"]\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/tasks",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Dec 2025 23:41:05 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"694734116efc3554ac021a53\",\n    \"title\": \"Reunión de Seguimiento Semanal\",\n    \"description\": \"Sincronizar el progreso del sprint con el resto de compañeros.\",\n    \"completed\": true,\n    \"priority\": \"MEDIA\",\n    \"tags\": [\n        \"reunion\",\n        \"equipo\"\n    ],\n    \"category\": \"Gestión\",\n    \"createdAt\": \"2025-12-20T23:41:05.3869554\",\n    \"updatedAt\": \"2025-12-20T23:41:05.3869554\",\n    \"dueDate\": null\n}"
+						},
+						{
+							"name": "Tarea 9",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"title\": \"Investigación de Librerías de Gráficos\",\r\n\"description\": \"Buscar alternativas a Chart.js para visualizar estadísticas de tareas.\",\r\n\"priority\": \"BAJA\",\r\n\"category\": \"Investigación\",\r\n\"completed\": false,\r\n\"tags\": [\"frontend\", \"charts\"]\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/tasks",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Dec 2025 23:41:22 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"694734226efc3554ac021a54\",\n    \"title\": \"Investigación de Librerías de Gráficos\",\n    \"description\": \"Buscar alternativas a Chart.js para visualizar estadísticas de tareas.\",\n    \"completed\": false,\n    \"priority\": \"BAJA\",\n    \"tags\": [\n        \"frontend\",\n        \"charts\"\n    ],\n    \"category\": \"Investigación\",\n    \"createdAt\": \"2025-12-20T23:41:22.3832344\",\n    \"updatedAt\": \"2025-12-20T23:41:22.3832344\",\n    \"dueDate\": null\n}"
+						},
+						{
+							"name": "Tarea 10",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"title\": \"Despliegue en Entorno de Pruebas\",\r\n\"description\": \"Configurar el contenedor de Docker para subir la API al servidor de test.\",\r\n\"priority\": \"ALTA\",\r\n\"category\": \"DevOps\",\r\n\"completed\": false,\r\n\"tags\": [\"deploy\", \"docker\"]\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/tasks",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Dec 2025 23:42:42 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"694734726efc3554ac021a55\",\n    \"title\": \"Despliegue en Entorno de Pruebas\",\n    \"description\": \"Configurar el contenedor de Docker para subir la API al servidor de test.\",\n    \"completed\": false,\n    \"priority\": \"ALTA\",\n    \"tags\": [\n        \"deploy\",\n        \"docker\"\n    ],\n    \"category\": \"DevOps\",\n    \"createdAt\": \"2025-12-20T23:42:42.4696765\",\n    \"updatedAt\": \"2025-12-20T23:42:42.4696765\",\n    \"dueDate\": null\n}"
+						},
+						{
+							"name": "Tarea 11",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n\"title\": \"Limpieza de Código (Refactoring)\",\r\n\"description\": \"Renombrar variables y extraer métodos largos para mejorar la legibilidad.\",\r\n\"priority\": \"MEDIA\",\r\n\"category\": \"Desarrollo\",\r\n\"completed\": false,\r\n\"tags\": [\"limpieza\", \"java\"]\r\n}\r\n",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/tasks",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks"
+									]
+								}
+							},
+							"status": "Created",
+							"code": 201,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Dec 2025 23:43:18 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"694734966efc3554ac021a56\",\n    \"title\": \"Limpieza de Código (Refactoring)\",\n    \"description\": \"Renombrar variables y extraer métodos largos para mejorar la legibilidad.\",\n    \"completed\": false,\n    \"priority\": \"MEDIA\",\n    \"tags\": [\n        \"limpieza\",\n        \"java\"\n    ],\n    \"category\": \"Desarrollo\",\n    \"createdAt\": \"2025-12-20T23:43:18.4938711\",\n    \"updatedAt\": \"2025-12-20T23:43:18.4938711\",\n    \"dueDate\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "Obtener todas las tareas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/tasks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"tasks"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Listado de Todas las Tareas",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/tasks",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Dec 2025 23:51:28 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": \"69472d2a6efc3554ac021a4c\",\n        \"title\": \"Comprar víveres\",\n        \"description\": \"Ir al supermercado y comprar frutas, verduras y lácteos\",\n        \"completed\": false,\n        \"priority\": \"MEDIA\",\n        \"tags\": [\n            \"casa\",\n            \"urgente\"\n        ],\n        \"category\": \"Personal\",\n        \"createdAt\": \"2025-12-20T23:11:38.846\",\n        \"updatedAt\": \"2025-12-20T23:11:38.846\",\n        \"dueDate\": \"2025-12-25T18:00:00\"\n    },\n    {\n        \"id\": \"694733696efc3554ac021a4d\",\n        \"title\": \"Configuración de Seguridad JWT\",\n        \"description\": \"Implementar el filtro de autenticación para proteger los endpoints.\",\n        \"completed\": false,\n        \"priority\": \"ALTA\",\n        \"tags\": [\n            \"seguridad\",\n            \"backend\",\n            \"importante\"\n        ],\n        \"category\": \"Desarrollo\",\n        \"createdAt\": \"2025-12-20T23:38:17.3\",\n        \"updatedAt\": \"2025-12-20T23:38:17.3\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"6947339e6efc3554ac021a4e\",\n        \"title\": \"Diseño de Interfaz de Usuario\",\n        \"description\": \"Crear los prototipos en Figma para la pantalla de inicio.\",\n        \"completed\": false,\n        \"priority\": \"MEDIA\",\n        \"tags\": [\n            \"frontend\",\n            \"ux\",\n            \"ui\"\n        ],\n        \"category\": \"Diseño\",\n        \"createdAt\": \"2025-12-20T23:39:10.403\",\n        \"updatedAt\": \"2025-12-20T23:39:10.403\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"694733b86efc3554ac021a4f\",\n        \"title\": \"Optimización de Consultas MongoDB\",\n        \"description\": \"Revisar los índices de la colección de tareas para mejorar la velocidad.\",\n        \"completed\": false,\n        \"priority\": \"ALTA\",\n        \"tags\": [\n            \"rendimiento\",\n            \"mongo\"\n        ],\n        \"category\": \"Base de Datos\",\n        \"createdAt\": \"2025-12-20T23:39:36.56\",\n        \"updatedAt\": \"2025-12-20T23:39:36.56\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"694733cb6efc3554ac021a50\",\n        \"title\": \"Redacción de Documentación Técnica\",\n        \"description\": \"Escribir el manual de uso de los endpoints en el README.\",\n        \"completed\": true,\n        \"priority\": \"BAJA\",\n        \"tags\": [\n            \"wiki\",\n            \"ayuda\"\n        ],\n        \"category\": \"Documentación\",\n        \"createdAt\": \"2025-12-20T23:39:55.538\",\n        \"updatedAt\": \"2025-12-20T23:39:55.538\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"694733e86efc3554ac021a51\",\n        \"title\": \"Pruebas de Integración\",\n        \"description\": \"Verificar que el flujo de creación y borrado de tareas funciona correctamente.\",\n        \"completed\": false,\n        \"priority\": \"MEDIA\",\n        \"tags\": [\n            \"testing\",\n            \"junit\"\n        ],\n        \"category\": \"QA\",\n        \"createdAt\": \"2025-12-20T23:40:24.338\",\n        \"updatedAt\": \"2025-12-20T23:40:24.338\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"694733fb6efc3554ac021a52\",\n        \"title\": \"Corrección de Bug en Filtros\",\n        \"description\": \"Reparar el error que impide filtrar tareas por la etiqueta 'urgente'.\",\n        \"completed\": false,\n        \"priority\": \"ALTA\",\n        \"tags\": [\n            \"bug\",\n            \"urgente\"\n        ],\n        \"category\": \"Mantenimiento\",\n        \"createdAt\": \"2025-12-20T23:40:43.228\",\n        \"updatedAt\": \"2025-12-20T23:40:43.228\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"694734116efc3554ac021a53\",\n        \"title\": \"Reunión de Seguimiento Semanal\",\n        \"description\": \"Sincronizar el progreso del sprint con el resto de compañeros.\",\n        \"completed\": true,\n        \"priority\": \"MEDIA\",\n        \"tags\": [\n            \"reunion\",\n            \"equipo\"\n        ],\n        \"category\": \"Gestión\",\n        \"createdAt\": \"2025-12-20T23:41:05.386\",\n        \"updatedAt\": \"2025-12-20T23:41:05.386\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"694734226efc3554ac021a54\",\n        \"title\": \"Investigación de Librerías de Gráficos\",\n        \"description\": \"Buscar alternativas a Chart.js para visualizar estadísticas de tareas.\",\n        \"completed\": false,\n        \"priority\": \"BAJA\",\n        \"tags\": [\n            \"frontend\",\n            \"charts\"\n        ],\n        \"category\": \"Investigación\",\n        \"createdAt\": \"2025-12-20T23:41:22.383\",\n        \"updatedAt\": \"2025-12-20T23:41:22.383\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"694734726efc3554ac021a55\",\n        \"title\": \"Despliegue en Entorno de Pruebas\",\n        \"description\": \"Configurar el contenedor de Docker para subir la API al servidor de test.\",\n        \"completed\": false,\n        \"priority\": \"ALTA\",\n        \"tags\": [\n            \"deploy\",\n            \"docker\"\n        ],\n        \"category\": \"DevOps\",\n        \"createdAt\": \"2025-12-20T23:42:42.469\",\n        \"updatedAt\": \"2025-12-20T23:42:42.469\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"694734966efc3554ac021a56\",\n        \"title\": \"Limpieza de Código (Refactoring)\",\n        \"description\": \"Renombrar variables y extraer métodos largos para mejorar la legibilidad.\",\n        \"completed\": false,\n        \"priority\": \"MEDIA\",\n        \"tags\": [\n            \"limpieza\",\n            \"java\"\n        ],\n        \"category\": \"Desarrollo\",\n        \"createdAt\": \"2025-12-20T23:43:18.493\",\n        \"updatedAt\": \"2025-12-20T23:43:18.493\",\n        \"dueDate\": null\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Obtener tarea por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/tasks/69472d2a6efc3554ac021a4c",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"tasks",
+								"69472d2a6efc3554ac021a4c"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Mostrar \"Tarea Ejemplo\"",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/tasks/69472d2a6efc3554ac021a4c",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks",
+										"69472d2a6efc3554ac021a4c"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Dec 2025 23:54:12 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"69472d2a6efc3554ac021a4c\",\n    \"title\": \"Comprar víveres\",\n    \"description\": \"Ir al supermercado y comprar frutas, verduras y lácteos\",\n    \"completed\": false,\n    \"priority\": \"MEDIA\",\n    \"tags\": [\n        \"casa\",\n        \"urgente\"\n    ],\n    \"category\": \"Personal\",\n    \"createdAt\": \"2025-12-20T23:11:38.846\",\n    \"updatedAt\": \"2025-12-20T23:11:38.846\",\n    \"dueDate\": \"2025-12-25T18:00:00\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Actualizar tarea",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"title\": \"Comprar sábado\",\r\n    \"description\": \"Ir al supermercado y comprar harina, huevos y esencia de vainilla\",\r\n    \"completed\": false,\r\n    \"priority\": \"ALTA\",\r\n    \"tags\": [\r\n        \"casa\",\r\n        \"urgente\"\r\n    ],\r\n    \"category\": \"Personal\",\r\n    \"createdAt\": \"2025-12-20T23:11:38.846\",\r\n    \"updatedAt\": \"2025-12-20T23:11:38.846\",\r\n    \"dueDate\": \"2025-12-25T18:00:00\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/tasks/69472d2a6efc3554ac021a4c",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"tasks",
+								"69472d2a6efc3554ac021a4c"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Actualizar Datos \"Tarea Ejemplo\"",
+							"originalRequest": {
+								"method": "PUT",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"title\": \"Comprar sábado\",\r\n    \"description\": \"Ir al supermercado y comprar harina, huevos y esencia de vainilla\",\r\n    \"completed\": false,\r\n    \"priority\": \"ALTA\",\r\n    \"tags\": [\r\n        \"casa\",\r\n        \"urgente\"\r\n    ],\r\n    \"category\": \"Personal\",\r\n    \"createdAt\": \"2025-12-20T23:11:38.846\",\r\n    \"updatedAt\": \"2025-12-20T23:11:38.846\",\r\n    \"dueDate\": \"2025-12-25T18:00:00\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/tasks/69472d2a6efc3554ac021a4c",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks",
+										"69472d2a6efc3554ac021a4c"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sat, 20 Dec 2025 23:59:15 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"69472d2a6efc3554ac021a4c\",\n    \"title\": \"Comprar sábado\",\n    \"description\": \"Ir al supermercado y comprar harina, huevos y esencia de vainilla\",\n    \"completed\": false,\n    \"priority\": \"ALTA\",\n    \"tags\": [\n        \"casa\",\n        \"urgente\"\n    ],\n    \"category\": \"Personal\",\n    \"createdAt\": \"2025-12-20T23:11:38.846\",\n    \"updatedAt\": \"2025-12-20T23:59:15.1546895\",\n    \"dueDate\": \"2025-12-25T18:00:00\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Eliminar tarea",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/tasks/69472d2a6efc3554ac021a4c",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"tasks",
+								"69472d2a6efc3554ac021a4c"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Eliminar \"Tarea Ejemplo\"",
+							"originalRequest": {
+								"method": "DELETE",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/tasks/69472d2a6efc3554ac021a4c",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks",
+										"69472d2a6efc3554ac021a4c"
+									]
+								}
+							},
+							"status": "No Content",
+							"code": 204,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Date",
+									"value": "Sun, 21 Dec 2025 00:02:23 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": null
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Gestión de Estado",
+			"item": [
+				{
+					"name": "Marcar como completada",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/tasks/694734966efc3554ac021a56/complete",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"tasks",
+								"694734966efc3554ac021a56",
+								"complete"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Encasillar la \"Tarea 11\" como completada",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/tasks/694734966efc3554ac021a56/complete",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks",
+										"694734966efc3554ac021a56",
+										"complete"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 21 Dec 2025 00:06:35 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"694734966efc3554ac021a56\",\n    \"title\": \"Limpieza de Código (Refactoring)\",\n    \"description\": \"Renombrar variables y extraer métodos largos para mejorar la legibilidad.\",\n    \"completed\": true,\n    \"priority\": \"MEDIA\",\n    \"tags\": [\n        \"limpieza\",\n        \"java\"\n    ],\n    \"category\": \"Desarrollo\",\n    \"createdAt\": \"2025-12-20T23:43:18.493\",\n    \"updatedAt\": \"2025-12-21T00:06:35.2247576\",\n    \"dueDate\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "Marcar como no completada",
+					"request": {
+						"method": "PATCH",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/tasks/694734966efc3554ac021a56/incomplete",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"tasks",
+								"694734966efc3554ac021a56",
+								"incomplete"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Encasillar la \"Tarea 11\" como incompletada",
+							"originalRequest": {
+								"method": "PATCH",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/tasks/694734966efc3554ac021a56/incomplete",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks",
+										"694734966efc3554ac021a56",
+										"incomplete"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 21 Dec 2025 00:10:03 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"id\": \"694734966efc3554ac021a56\",\n    \"title\": \"Limpieza de Código (Refactoring)\",\n    \"description\": \"Renombrar variables y extraer métodos largos para mejorar la legibilidad.\",\n    \"completed\": false,\n    \"priority\": \"MEDIA\",\n    \"tags\": [\n        \"limpieza\",\n        \"java\"\n    ],\n    \"category\": \"Desarrollo\",\n    \"createdAt\": \"2025-12-20T23:43:18.493\",\n    \"updatedAt\": \"2025-12-21T00:10:03.9000205\",\n    \"dueDate\": null\n}"
+						}
+					]
+				},
+				{
+					"name": "Obtener pendientes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/tasks/pending",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"tasks",
+								"pending"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Listado de Todas las Tareas Pendientes",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/tasks/pending",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks",
+										"pending"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 21 Dec 2025 00:12:06 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": \"694733696efc3554ac021a4d\",\n        \"title\": \"Configuración de Seguridad JWT\",\n        \"description\": \"Implementar el filtro de autenticación para proteger los endpoints.\",\n        \"completed\": false,\n        \"priority\": \"ALTA\",\n        \"tags\": [\n            \"seguridad\",\n            \"backend\",\n            \"importante\"\n        ],\n        \"category\": \"Desarrollo\",\n        \"createdAt\": \"2025-12-20T23:38:17.3\",\n        \"updatedAt\": \"2025-12-20T23:38:17.3\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"6947339e6efc3554ac021a4e\",\n        \"title\": \"Diseño de Interfaz de Usuario\",\n        \"description\": \"Crear los prototipos en Figma para la pantalla de inicio.\",\n        \"completed\": false,\n        \"priority\": \"MEDIA\",\n        \"tags\": [\n            \"frontend\",\n            \"ux\",\n            \"ui\"\n        ],\n        \"category\": \"Diseño\",\n        \"createdAt\": \"2025-12-20T23:39:10.403\",\n        \"updatedAt\": \"2025-12-20T23:39:10.403\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"694733b86efc3554ac021a4f\",\n        \"title\": \"Optimización de Consultas MongoDB\",\n        \"description\": \"Revisar los índices de la colección de tareas para mejorar la velocidad.\",\n        \"completed\": false,\n        \"priority\": \"ALTA\",\n        \"tags\": [\n            \"rendimiento\",\n            \"mongo\"\n        ],\n        \"category\": \"Base de Datos\",\n        \"createdAt\": \"2025-12-20T23:39:36.56\",\n        \"updatedAt\": \"2025-12-20T23:39:36.56\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"694733e86efc3554ac021a51\",\n        \"title\": \"Pruebas de Integración\",\n        \"description\": \"Verificar que el flujo de creación y borrado de tareas funciona correctamente.\",\n        \"completed\": false,\n        \"priority\": \"MEDIA\",\n        \"tags\": [\n            \"testing\",\n            \"junit\"\n        ],\n        \"category\": \"QA\",\n        \"createdAt\": \"2025-12-20T23:40:24.338\",\n        \"updatedAt\": \"2025-12-20T23:40:24.338\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"694733fb6efc3554ac021a52\",\n        \"title\": \"Corrección de Bug en Filtros\",\n        \"description\": \"Reparar el error que impide filtrar tareas por la etiqueta 'urgente'.\",\n        \"completed\": false,\n        \"priority\": \"ALTA\",\n        \"tags\": [\n            \"bug\",\n            \"urgente\"\n        ],\n        \"category\": \"Mantenimiento\",\n        \"createdAt\": \"2025-12-20T23:40:43.228\",\n        \"updatedAt\": \"2025-12-20T23:40:43.228\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"694734226efc3554ac021a54\",\n        \"title\": \"Investigación de Librerías de Gráficos\",\n        \"description\": \"Buscar alternativas a Chart.js para visualizar estadísticas de tareas.\",\n        \"completed\": false,\n        \"priority\": \"BAJA\",\n        \"tags\": [\n            \"frontend\",\n            \"charts\"\n        ],\n        \"category\": \"Investigación\",\n        \"createdAt\": \"2025-12-20T23:41:22.383\",\n        \"updatedAt\": \"2025-12-20T23:41:22.383\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"694734726efc3554ac021a55\",\n        \"title\": \"Despliegue en Entorno de Pruebas\",\n        \"description\": \"Configurar el contenedor de Docker para subir la API al servidor de test.\",\n        \"completed\": false,\n        \"priority\": \"ALTA\",\n        \"tags\": [\n            \"deploy\",\n            \"docker\"\n        ],\n        \"category\": \"DevOps\",\n        \"createdAt\": \"2025-12-20T23:42:42.469\",\n        \"updatedAt\": \"2025-12-20T23:42:42.469\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"694734966efc3554ac021a56\",\n        \"title\": \"Limpieza de Código (Refactoring)\",\n        \"description\": \"Renombrar variables y extraer métodos largos para mejorar la legibilidad.\",\n        \"completed\": false,\n        \"priority\": \"MEDIA\",\n        \"tags\": [\n            \"limpieza\",\n            \"java\"\n        ],\n        \"category\": \"Desarrollo\",\n        \"createdAt\": \"2025-12-20T23:43:18.493\",\n        \"updatedAt\": \"2025-12-21T00:10:03.9\",\n        \"dueDate\": null\n    }\n]"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Búsquedas",
+			"item": [
+				{
+					"name": "Por categoría",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/tasks/category/Desarrollo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"tasks",
+								"category",
+								"Desarrollo"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Listado de Todas las Tareas por Categoría",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/tasks/category/Desarrollo",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks",
+										"category",
+										"Desarrollo"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 21 Dec 2025 00:16:42 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": \"694733696efc3554ac021a4d\",\n        \"title\": \"Configuración de Seguridad JWT\",\n        \"description\": \"Implementar el filtro de autenticación para proteger los endpoints.\",\n        \"completed\": false,\n        \"priority\": \"ALTA\",\n        \"tags\": [\n            \"seguridad\",\n            \"backend\",\n            \"importante\"\n        ],\n        \"category\": \"Desarrollo\",\n        \"createdAt\": \"2025-12-20T23:38:17.3\",\n        \"updatedAt\": \"2025-12-20T23:38:17.3\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"694734966efc3554ac021a56\",\n        \"title\": \"Limpieza de Código (Refactoring)\",\n        \"description\": \"Renombrar variables y extraer métodos largos para mejorar la legibilidad.\",\n        \"completed\": false,\n        \"priority\": \"MEDIA\",\n        \"tags\": [\n            \"limpieza\",\n            \"java\"\n        ],\n        \"category\": \"Desarrollo\",\n        \"createdAt\": \"2025-12-20T23:43:18.493\",\n        \"updatedAt\": \"2025-12-21T00:10:03.9\",\n        \"dueDate\": null\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Por etiqueta",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/tasks/tag/java",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"tasks",
+								"tag",
+								"java"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Listado de Todas las Tareas por Etiqueta",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/tasks/tag/java",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks",
+										"tag",
+										"java"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 21 Dec 2025 01:17:26 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": \"694734966efc3554ac021a56\",\n        \"title\": \"Limpieza de Código (Refactoring)\",\n        \"description\": \"Renombrar variables y extraer métodos largos para mejorar la legibilidad.\",\n        \"completed\": false,\n        \"priority\": \"MEDIA\",\n        \"tags\": [\n            \"limpieza\",\n            \"java\"\n        ],\n        \"category\": \"Desarrollo\",\n        \"createdAt\": \"2025-12-20T23:43:18.493\",\n        \"updatedAt\": \"2025-12-21T00:10:03.9\",\n        \"dueDate\": null\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Por prioridad",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/tasks/priority/ALTA",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"tasks",
+								"priority",
+								"ALTA"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Listado de Todas las Tareas por Prioridad",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/tasks/priority/ALTA",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks",
+										"priority",
+										"ALTA"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 21 Dec 2025 01:19:42 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": \"694733696efc3554ac021a4d\",\n        \"title\": \"Configuración de Seguridad JWT\",\n        \"description\": \"Implementar el filtro de autenticación para proteger los endpoints.\",\n        \"completed\": false,\n        \"priority\": \"ALTA\",\n        \"tags\": [\n            \"seguridad\",\n            \"backend\",\n            \"importante\"\n        ],\n        \"category\": \"Desarrollo\",\n        \"createdAt\": \"2025-12-20T23:38:17.3\",\n        \"updatedAt\": \"2025-12-20T23:38:17.3\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"694733b86efc3554ac021a4f\",\n        \"title\": \"Optimización de Consultas MongoDB\",\n        \"description\": \"Revisar los índices de la colección de tareas para mejorar la velocidad.\",\n        \"completed\": false,\n        \"priority\": \"ALTA\",\n        \"tags\": [\n            \"rendimiento\",\n            \"mongo\"\n        ],\n        \"category\": \"Base de Datos\",\n        \"createdAt\": \"2025-12-20T23:39:36.56\",\n        \"updatedAt\": \"2025-12-20T23:39:36.56\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"694733fb6efc3554ac021a52\",\n        \"title\": \"Corrección de Bug en Filtros\",\n        \"description\": \"Reparar el error que impide filtrar tareas por la etiqueta 'urgente'.\",\n        \"completed\": false,\n        \"priority\": \"ALTA\",\n        \"tags\": [\n            \"bug\",\n            \"urgente\"\n        ],\n        \"category\": \"Mantenimiento\",\n        \"createdAt\": \"2025-12-20T23:40:43.228\",\n        \"updatedAt\": \"2025-12-20T23:40:43.228\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"694734726efc3554ac021a55\",\n        \"title\": \"Despliegue en Entorno de Pruebas\",\n        \"description\": \"Configurar el contenedor de Docker para subir la API al servidor de test.\",\n        \"completed\": false,\n        \"priority\": \"ALTA\",\n        \"tags\": [\n            \"deploy\",\n            \"docker\"\n        ],\n        \"category\": \"DevOps\",\n        \"createdAt\": \"2025-12-20T23:42:42.469\",\n        \"updatedAt\": \"2025-12-20T23:42:42.469\",\n        \"dueDate\": null\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Por título",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/tasks/search?title=Limpieza de Código (Refactoring)",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"tasks",
+								"search"
+							],
+							"query": [
+								{
+									"key": "title",
+									"value": "Limpieza de Código (Refactoring)"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Listado de Todas las Tareas por Título",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/tasks/search?title=Limpieza de Código (Refactoring)",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks",
+										"search"
+									],
+									"query": [
+										{
+											"key": "title",
+											"value": "Limpieza de Código (Refactoring)"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 21 Dec 2025 01:23:40 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": \"694734966efc3554ac021a56\",\n        \"title\": \"Limpieza de Código (Refactoring)\",\n        \"description\": \"Renombrar variables y extraer métodos largos para mejorar la legibilidad.\",\n        \"completed\": false,\n        \"priority\": \"MEDIA\",\n        \"tags\": [\n            \"limpieza\",\n            \"java\"\n        ],\n        \"category\": \"Desarrollo\",\n        \"createdAt\": \"2025-12-20T23:43:18.493\",\n        \"updatedAt\": \"2025-12-21T00:10:03.9\",\n        \"dueDate\": null\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Tareas vencidas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/tasks/overdue",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"tasks",
+								"overdue"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Listado de Todas las Tareas por Caducidad",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/tasks/overdue",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks",
+										"overdue"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 21 Dec 2025 01:48:25 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[]"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Funcionalidades Avanzadas",
+			"item": [
+				{
+					"name": "Estadísticas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/tasks/statistics",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"tasks",
+								"statistics"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Calculo y Muestreo de Estadísticas",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/tasks/statistics",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks",
+										"statistics"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 21 Dec 2025 01:50:11 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"totalTasks\": 10,\n    \"completedTasks\": 2,\n    \"pendingTasks\": 8,\n    \"overdueTasks\": 0,\n    \"tasksByPriority\": {\n        \"ALTA\": 4,\n        \"BAJA\": 2,\n        \"MEDIA\": 4\n    },\n    \"tasksByCategory\": {\n        \"QA\": 1,\n        \"DevOps\": 1,\n        \"Documentación\": 1,\n        \"Diseño\": 1,\n        \"Base de Datos\": 1,\n        \"Desarrollo\": 2,\n        \"Gestión\": 1,\n        \"Investigación\": 1,\n        \"Mantenimiento\": 1\n    },\n    \"completionPercentage\": 20\n}"
+						}
+					]
+				},
+				{
+					"name": "Paginación",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/tasks/paginated?page=0&size=5&sortBy=title&sortDirection=asc",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"tasks",
+								"paginated"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "0"
+								},
+								{
+									"key": "size",
+									"value": "5"
+								},
+								{
+									"key": "sortBy",
+									"value": "title"
+								},
+								{
+									"key": "sortDirection",
+									"value": "asc"
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Paginación de Todas las Tareas",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/tasks/paginated?page=0&size=5&sortBy=title&sortDirection=asc",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks",
+										"paginated"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "0"
+										},
+										{
+											"key": "size",
+											"value": "5"
+										},
+										{
+											"key": "sortBy",
+											"value": "title"
+										},
+										{
+											"key": "sortDirection",
+											"value": "asc"
+										}
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 21 Dec 2025 01:53:03 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"content\": [\n        {\n            \"id\": \"694733696efc3554ac021a4d\",\n            \"title\": \"Configuración de Seguridad JWT\",\n            \"description\": \"Implementar el filtro de autenticación para proteger los endpoints.\",\n            \"completed\": false,\n            \"priority\": \"ALTA\",\n            \"tags\": [\n                \"seguridad\",\n                \"backend\",\n                \"importante\"\n            ],\n            \"category\": \"Desarrollo\",\n            \"createdAt\": \"2025-12-20T23:38:17.3\",\n            \"updatedAt\": \"2025-12-20T23:38:17.3\",\n            \"dueDate\": null\n        },\n        {\n            \"id\": \"694733fb6efc3554ac021a52\",\n            \"title\": \"Corrección de Bug en Filtros\",\n            \"description\": \"Reparar el error que impide filtrar tareas por la etiqueta 'urgente'.\",\n            \"completed\": false,\n            \"priority\": \"ALTA\",\n            \"tags\": [\n                \"bug\",\n                \"urgente\"\n            ],\n            \"category\": \"Mantenimiento\",\n            \"createdAt\": \"2025-12-20T23:40:43.228\",\n            \"updatedAt\": \"2025-12-20T23:40:43.228\",\n            \"dueDate\": null\n        },\n        {\n            \"id\": \"694734726efc3554ac021a55\",\n            \"title\": \"Despliegue en Entorno de Pruebas\",\n            \"description\": \"Configurar el contenedor de Docker para subir la API al servidor de test.\",\n            \"completed\": false,\n            \"priority\": \"ALTA\",\n            \"tags\": [\n                \"deploy\",\n                \"docker\"\n            ],\n            \"category\": \"DevOps\",\n            \"createdAt\": \"2025-12-20T23:42:42.469\",\n            \"updatedAt\": \"2025-12-20T23:42:42.469\",\n            \"dueDate\": null\n        },\n        {\n            \"id\": \"6947339e6efc3554ac021a4e\",\n            \"title\": \"Diseño de Interfaz de Usuario\",\n            \"description\": \"Crear los prototipos en Figma para la pantalla de inicio.\",\n            \"completed\": false,\n            \"priority\": \"MEDIA\",\n            \"tags\": [\n                \"frontend\",\n                \"ux\",\n                \"ui\"\n            ],\n            \"category\": \"Diseño\",\n            \"createdAt\": \"2025-12-20T23:39:10.403\",\n            \"updatedAt\": \"2025-12-20T23:39:10.403\",\n            \"dueDate\": null\n        },\n        {\n            \"id\": \"694734226efc3554ac021a54\",\n            \"title\": \"Investigación de Librerías de Gráficos\",\n            \"description\": \"Buscar alternativas a Chart.js para visualizar estadísticas de tareas.\",\n            \"completed\": false,\n            \"priority\": \"BAJA\",\n            \"tags\": [\n                \"frontend\",\n                \"charts\"\n            ],\n            \"category\": \"Investigación\",\n            \"createdAt\": \"2025-12-20T23:41:22.383\",\n            \"updatedAt\": \"2025-12-20T23:41:22.383\",\n            \"dueDate\": null\n        }\n    ],\n    \"empty\": false,\n    \"first\": true,\n    \"last\": false,\n    \"number\": 0,\n    \"numberOfElements\": 5,\n    \"pageable\": {\n        \"offset\": 0,\n        \"pageNumber\": 0,\n        \"pageSize\": 5,\n        \"paged\": true,\n        \"sort\": {\n            \"empty\": false,\n            \"sorted\": true,\n            \"unsorted\": false\n        },\n        \"unpaged\": false\n    },\n    \"size\": 5,\n    \"sort\": {\n        \"empty\": false,\n        \"sorted\": true,\n        \"unsorted\": false\n    },\n    \"totalElements\": 10,\n    \"totalPages\": 2\n}"
+						}
+					]
+				},
+				{
+					"name": "Pendientes por prioridad",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/tasks/pending/priority/ALTA",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"tasks",
+								"pending",
+								"priority",
+								"ALTA"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Listado de Todas las Tareas por Prioridad Alta",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/tasks/pending/priority/ALTA",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks",
+										"pending",
+										"priority",
+										"ALTA"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 21 Dec 2025 01:54:29 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": \"694733696efc3554ac021a4d\",\n        \"title\": \"Configuración de Seguridad JWT\",\n        \"description\": \"Implementar el filtro de autenticación para proteger los endpoints.\",\n        \"completed\": false,\n        \"priority\": \"ALTA\",\n        \"tags\": [\n            \"seguridad\",\n            \"backend\",\n            \"importante\"\n        ],\n        \"category\": \"Desarrollo\",\n        \"createdAt\": \"2025-12-20T23:38:17.3\",\n        \"updatedAt\": \"2025-12-20T23:38:17.3\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"694733b86efc3554ac021a4f\",\n        \"title\": \"Optimización de Consultas MongoDB\",\n        \"description\": \"Revisar los índices de la colección de tareas para mejorar la velocidad.\",\n        \"completed\": false,\n        \"priority\": \"ALTA\",\n        \"tags\": [\n            \"rendimiento\",\n            \"mongo\"\n        ],\n        \"category\": \"Base de Datos\",\n        \"createdAt\": \"2025-12-20T23:39:36.56\",\n        \"updatedAt\": \"2025-12-20T23:39:36.56\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"694733fb6efc3554ac021a52\",\n        \"title\": \"Corrección de Bug en Filtros\",\n        \"description\": \"Reparar el error que impide filtrar tareas por la etiqueta 'urgente'.\",\n        \"completed\": false,\n        \"priority\": \"ALTA\",\n        \"tags\": [\n            \"bug\",\n            \"urgente\"\n        ],\n        \"category\": \"Mantenimiento\",\n        \"createdAt\": \"2025-12-20T23:40:43.228\",\n        \"updatedAt\": \"2025-12-20T23:40:43.228\",\n        \"dueDate\": null\n    },\n    {\n        \"id\": \"694734726efc3554ac021a55\",\n        \"title\": \"Despliegue en Entorno de Pruebas\",\n        \"description\": \"Configurar el contenedor de Docker para subir la API al servidor de test.\",\n        \"completed\": false,\n        \"priority\": \"ALTA\",\n        \"tags\": [\n            \"deploy\",\n            \"docker\"\n        ],\n        \"category\": \"DevOps\",\n        \"createdAt\": \"2025-12-20T23:42:42.469\",\n        \"updatedAt\": \"2025-12-20T23:42:42.469\",\n        \"dueDate\": null\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Completadas por categoría",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/tasks/completed/category/Documentación",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"tasks",
+								"completed",
+								"category",
+								"Documentación"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Listado de Todas las Tareas Completadas por Categoría",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/tasks/completed/category/Documentación",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks",
+										"completed",
+										"category",
+										"Documentación"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 21 Dec 2025 01:56:52 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[\n    {\n        \"id\": \"694733cb6efc3554ac021a50\",\n        \"title\": \"Redacción de Documentación Técnica\",\n        \"description\": \"Escribir el manual de uso de los endpoints en el README.\",\n        \"completed\": true,\n        \"priority\": \"BAJA\",\n        \"tags\": [\n            \"wiki\",\n            \"ayuda\"\n        ],\n        \"category\": \"Documentación\",\n        \"createdAt\": \"2025-12-20T23:39:55.538\",\n        \"updatedAt\": \"2025-12-20T23:39:55.538\",\n        \"dueDate\": null\n    }\n]"
+						}
+					]
+				},
+				{
+					"name": "Por prioridad y categoría",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/tasks/priority/ALTA/category/Documentación",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"tasks",
+								"priority",
+								"ALTA",
+								"category",
+								"Documentación"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Listado de Todas las Tareas por Categoría con Prioridad Alta",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/tasks/priority/ALTA/category/Documentación",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks",
+										"priority",
+										"ALTA",
+										"category",
+										"Documentación"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 21 Dec 2025 01:58:33 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "[]"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Pruebas de Errores",
+			"item": [
+				{
+					"name": "Error 400 - Validación",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"description\": \"Tarea sin título ni prioridad\",\r\n  \"completed\": false\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/tasks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"tasks"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Prueba y Validación del Error 400",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"description\": \"Tarea sin título ni prioridad\",\r\n  \"completed\": false\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/tasks",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks"
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 21 Dec 2025 02:01:45 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"path\": \"/api/tasks\",\n    \"error\": \"Bad Request\",\n    \"message\": \"Error de validación\",\n    \"errors\": {\n        \"title\": \"El título es obligatorio\",\n        \"priority\": \"La prioridad es obligatoria\"\n    },\n    \"timestamp\": \"2025-12-21T02:01:45.5093593\",\n    \"status\": 400\n}"
+						}
+					]
+				},
+				{
+					"name": "Error 404 - No encontrada",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8080/api/tasks/999999999999",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"tasks",
+								"999999999999"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Prueba y Validación del Error 404",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/api/tasks/999999999999",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks",
+										"999999999999"
+									]
+								}
+							},
+							"status": "Not Found",
+							"code": 404,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 21 Dec 2025 02:03:03 GMT"
+								},
+								{
+									"key": "Keep-Alive",
+									"value": "timeout=60"
+								},
+								{
+									"key": "Connection",
+									"value": "keep-alive"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"timestamp\": \"2025-12-21T02:03:03.3316135\",\n    \"status\": 404,\n    \"error\": \"Not Found\",\n    \"message\": \"No se encontró la tarea con ID: 999999999999\",\n    \"path\": \"/api/tasks/999999999999\"\n}"
+						}
+					]
+				},
+				{
+					"name": "Error 400 - Título largo",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"title\": \"Este es un título extremadamente largo que supera el límite de 100 caracteres establecido en la validación y por lo tanto debería generar un error 400\",\r\n  \"completed\": false,\r\n  \"priority\": \"MEDIA\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/api/tasks",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"api",
+								"tasks"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Prueba y Validación del Error 400",
+							"originalRequest": {
+								"method": "POST",
+								"header": [],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"title\": \"Este es un título extremadamente largo que supera el límite de 100 caracteres establecido en la validación y por lo tanto debería generar un error 400\",\r\n  \"completed\": false,\r\n  \"priority\": \"MEDIA\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/api/tasks",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"api",
+										"tasks"
+									]
+								}
+							},
+							"status": "Bad Request",
+							"code": 400,
+							"_postman_previewlanguage": null,
+							"header": [
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "Transfer-Encoding",
+									"value": "chunked"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 21 Dec 2025 02:05:50 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"path\": \"/api/tasks\",\n    \"error\": \"Bad Request\",\n    \"message\": \"Error de validación\",\n    \"errors\": {\n        \"title\": \"El título no puede superar los 100 caracteres\"\n    },\n    \"timestamp\": \"2025-12-21T02:05:50.4740582\",\n    \"status\": 400\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}

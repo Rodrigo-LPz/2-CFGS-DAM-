@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:minHeight="80dp"
+    android:background="#E0F2F1">
+
+    <!-- COLUMNA HORA (Izquierda) -->
+    <TextView
+        android:id="@+id/tvHoraSlot"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:text="12 PM"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="top|center_horizontal"
+        android:paddingTop="12dp"
+        android:textSize="14sp"/>
+
+    <!-- LÍNEA SEPARADORA VERTICAL -->
+    <View
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:background="#B0BEC5"/>
+
+    <!-- CONTENEDOR DE LA TAREA -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardTareaSlot"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cardCornerRadius="0dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="0dp"
+            app:cardUseCompatPadding="false"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:padding="12dp">
+
+                <!-- CABECERA -->
+                <LinearLayout
+                    android:id="@+id/layoutContenedorInfo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:id="@+id/tvTituloTareaSlot"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Título Tarea"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"/>
+
+                    <ImageView
+                        android:id="@+id/imgArrowSlot"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:src="@drawable/ic_arrow_down"
+                        app:tint="#00897B"/>
+                </LinearLayout>
+
+                <!-- DETALLES -->
+                <LinearLayout
+                    android:id="@+id/layoutDetallesSlot"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:visibility="gone"
+                    android:layout_marginTop="4dp">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#EEEEEE"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="8dp"/>
+
+                    <TextView
+                        android:id="@+id/tvDescSlot"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="..."
+                        android:textColor="#455A64"
+                        android:textSize="13sp"
+                        android:layout_marginBottom="6dp"/>
+
+                    <TextView
+                        android:id="@+id/tvUbiSlot"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="..."
+                        android:textColor="#455A64"
+                        android:textSize="13sp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                    <!-- Botones -->
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:gravity="end"
+                        android:layout_marginTop="8dp">
+
+                        <ImageView
+                            android:id="@+id/btnEditarSlot"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@android:drawable/ic_menu_edit"
+                            app:tint="#455A64"
+                            android:layout_marginEnd="16dp"/>
+
+                        <ImageView
+                            android:id="@+id/btnCompartirSlot"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@android:drawable/ic_menu_share"
+                            app:tint="#455A64"
+                            android:layout_marginEnd="16dp"/>
+
+                        <ImageView
+                            android:id="@+id/btnMenuSlot"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@android:drawable/ic_menu_more"
+                            app:tint="#455A64"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <!-- LÍNEA DE FONDO -->
+        <View
+            android:id="@+id/lineaSeparadoraFondo"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#CFD8DC"
+            android:layout_gravity="bottom"/>
+    </FrameLayout>
+</LinearLayout>

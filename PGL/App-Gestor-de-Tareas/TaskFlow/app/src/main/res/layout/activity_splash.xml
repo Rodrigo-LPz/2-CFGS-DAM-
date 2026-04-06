@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_splash.xml - Layout de la pantalla de carga -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mint_primary"
+    android:gravity="center">
+
+    <!-- Contenedor central para logo y texto -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- Logo de la aplicación -->
+        <ImageView
+            android:id="@+id/splashLogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/logo_taskflow"
+            android:contentDescription="@string/app_name"
+            android:alpha="0" />
+
+        <!-- Nombre de la aplicación -->
+        <TextView
+            android:id="@+id/splashAppName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="TaskFlow"
+            android:textColor="@android:color/white"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-medium"
+            android:alpha="0" />
+
+        <!-- Subtítulo opcional -->
+        <TextView
+            android:id="@+id/splashSubtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Organiza tu día"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:alpha="0.8" />
+
+    </LinearLayout>
+
+    <!-- Indicador de carga en la parte inferior -->
+    <ProgressBar
+        android:id="@+id/splashProgressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="48dp"
+        android:indeterminateTint="@android:color/white" />
+
+</RelativeLayout>

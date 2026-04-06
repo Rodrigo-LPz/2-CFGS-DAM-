@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- splash_slide_up.xml - Animación de deslizamiento hacia arriba para el texto -->
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true"
+    android:duration="1000">
+
+    <!-- Fade In: Aparición gradual -->
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0"
+        android:duration="1000" />
+
+    <!-- Translate: Deslizar desde abajo -->
+    <translate
+        android:fromYDelta="100%"
+        android:toYDelta="0%"
+        android:duration="1000"
+        android:interpolator="@android:anim/decelerate_interpolator" />
+
+</set>

@@ -128,4 +128,4 @@ fun main(){
     // Imprime un mensaje por pantalla indicando que el sistema ha finalizado, se ha cerrado.
     println("\n\n🛑 Sistema finalizado 🛑")
 
-}
+}   

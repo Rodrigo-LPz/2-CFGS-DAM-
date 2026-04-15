@@ -1,0 +1,11 @@
+Enunciado: Desarrollar una aplicación de escritorio en Java que permita al usuario crear y modificar un archivo que desee del dispositivo.
+
+Requisitos: Además de cumplir con lo dicho en el apartado de 'Enunciado', para el desarrollo/construcción del programa, como requisitos fundamentales encontramos que debe cumplir con lo siguiente:
+                ? La interfaz gráfica tiene que constar con un mínimo de 3 elementos:
+                    ? 2 Botones FUNCIONALES (Crear y Modificar).
+                    ? 1 Título (jLabel).
+                ? Crear una bienvenida previa al programa mediante el uso de "Scanner".
+                ? Mediante "JOptionPane", hacer uso de ventanas emergentes para los errores que pueden suceder durante la ejecución del programa [Pista: se usarán durante los "catch".].
+                ? Comentar nuestro código explicando que es lo que hace o está pasando.
+
+Observaciones: Para realizar el apartado de 

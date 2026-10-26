@@ -53,8 +53,8 @@ public class Ejercicio_1{
                         System.out.println("\t" + tipo + f.getName() + "\n\t\t| El tamaño del directorio es de " +  tamañoBytes + " bytes. |" + "\n\t\t| La última modificación realizada fue " + lastDateModificated + ". |");
                     }
                 } else{
-                // Muestreo del resultado final.
-                System.out.println("\n\tEl directorio en cuestión está o se encuentra vacío.");
+                    // Muestreo del resultado final.
+                    System.out.println("\n\tEl directorio en cuestión está o se encuentra vacío.");
                 }
                 
             // Caso para archivos.

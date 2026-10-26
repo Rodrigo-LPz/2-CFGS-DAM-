@@ -84,7 +84,7 @@ public class DB_Conecction{
             */
             // Consulta a petición del usuario.
             Scanner user = new Scanner(System.in);
-            System.out.print("Por favor, introduzca la inial del cliente a buscar: ");
+            System.out.print("Por favor, introduzca la inicial del cliente a buscar: ");
             String firstLetter = user.nextLine();
             
                 // Petición de búsqueda de personas cuyo apellido empiece por la letra indicada.
